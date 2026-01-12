@@ -1,0 +1,502 @@
+﻿  Material.cpp
+  Mtl.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\Mtl.cpp(211,39): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\Mtl.cpp(224,39): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\Mtl.cpp(239,40): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\Mtl.cpp(273,33): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\Mtl.cpp(290,32): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  ObjData.cpp
+  ObjDetailData.cpp
+  ObjLoader.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\ObjLoader.cpp(248,70): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\ObjLoader.cpp(247,75): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+  ObjLoader_Seq.cpp
+  PngImage.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\PngImage.cpp(60,27): warning C4267: '=': 'size_t' から 'unsigned long' に変換しました。データが失われているかもしれません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\PngImage.cpp(37,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\lib_ObjLoader\PngImage.cpp(112,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ThreedVector.cpp
+  calc.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../src/calc.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(182,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(183,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(184,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(192,13): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(193,13): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(194,13): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(195,13): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(196,13): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(197,13): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\calc.cpp(633,12): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  depth.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\depth.h(55,37): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../src/depth.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(13,14): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(14,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(15,14): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(27,18): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(30,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(31,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(46,12): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(98,12): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(99,45): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(106,18): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(110,10): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\depth.cpp(111,10): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  draw.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../src/draw.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(28,27): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(28,15): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(45,26): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(45,31): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(45,36): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(141,34): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(141,29): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(141,24): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(144,33): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(144,28): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(144,23): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(189,18): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(189,13): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(197,18): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(197,13): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(204,18): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(204,13): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(223,31): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\draw.cpp(223,21): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+  ezFont.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezFont.cpp(48,24): warning C4267: '引数': 'size_t' から 'GLsizei' に変換しました。データが失われているかもしれません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezFont.cpp(77,38): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezFont.cpp(77,24): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+  Com.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\Com.cpp(217,16): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\Com.cpp(269,21): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+  ezGyro.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(35,18): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(48,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(49,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(50,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(52,44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(53,57): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(59,3): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(62,3): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(130,9): warning C4476: 'printf' : 形式指定子に不明な種類フィールド文字 ' ' があります
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(130,9): warning C4778: 'printf' : 書式文字列 '%5.2\n' がありません
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(131,6): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+      D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\ezGyro.cpp(131,6):
+      プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、3 が指定されています。
+  
+  JY901.cpp
+  MPU6050.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(39,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(40,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(41,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(42,34): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(43,34): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(44,34): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(45,41): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(46,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(47,40): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(49,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(12,14): warning C4101: 'pitch': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(12,8): warning C4101: 'roll': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(10,8): warning C4101: 'ax': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(10,12): warning C4101: 'ay': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(10,16): warning C4101: 'az': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(12,21): warning C4101: 'yaw': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(89,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(90,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(91,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(92,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(93,47): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(94,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(95,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(96,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(97,44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(99,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(59,14): warning C4101: 'pitch': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(59,8): warning C4101: 'roll': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(57,8): warning C4101: 'ax': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(58,8): warning C4101: 'gx': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(58,16): warning C4101: 'gz': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(57,12): warning C4101: 'ay': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(57,16): warning C4101: 'az': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(59,21): warning C4101: 'yaw': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezGyro\MPU6050.cpp(58,12): warning C4101: 'gy': ローカル変数は 1 度も使われていません。
+  ezJpeg.cpp
+  ezPNG.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezImage\ezPNG.cpp(18,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezImage\ezPNG.cpp(12,12): warning C4101: 'row': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezImage\ezPNG.cpp(13,12): warning C4101: 'px': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezImage\ezPNG.cpp(15,17): warning C4101: 'rawimage': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezImage\ezPNG.cpp(133,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ezWebCam.cpp
+  image.cpp
+  コードを生成中...
+  コンパイル中...
+  ezMIDI.cpp
+  ezUtil.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(49,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(50,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(83,20): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(84,20): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(95,22): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(96,22): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(108,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(336,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(339,26): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(350,27): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(354,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezUtil.cpp(355,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  ezZigSim.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(38,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(65,30): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(94,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(95,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(114,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(115,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(136,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(155,13): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(137,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(156,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(212,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(213,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(263,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(264,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(313,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(314,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(363,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(364,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(418,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(419,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(458,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(459,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(495,12): warning C4244: '初期化中': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(496,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gyro.cpp
+  light.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../src/light.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(9,26): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(9,31): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(9,36): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(48,31): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(48,36): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(48,41): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(93,19): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(94,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(126,19): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(127,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(157,19): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(158,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(188,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(191,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(205,41): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\light.cpp(210,9): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Matrix.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Matrix.cpp(73,12): warning C4101: 'k': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Matrix.cpp(217,11): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  mymodel.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../src/mymodel.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\mymodel.cpp(76,32): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\mymodel.cpp(76,27): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\mymodel.cpp(76,22): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\mymodel.cpp(80,53): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\mymodel.cpp(81,53): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\mymodel.cpp(82,53): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  myShape.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(11,10): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(12,9): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(14,33): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(14,23): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(17,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(18,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(27,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(28,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(35,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(36,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(50,10): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(51,9): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(53,23): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(56,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(57,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(65,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(66,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(73,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\myShape.cpp(74,8): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  perlinNoise.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(45,53): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(46,47): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(48,35): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(48,26): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(62,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(65,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(72,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(73,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(57,11): warning C4101: 'y': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(57,8): warning C4101: 'x': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(92,17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(95,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(87,11): warning C4101: 'y': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(87,8): warning C4101: 'x': ローカル変数は 1 度も使われていません。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(263,12): warning C4244: '-=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(264,12): warning C4244: '-=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(275,29): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(304,31): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(306,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(316,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(323,31): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(325,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(335,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\perlinNoise.cpp(401,14): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  SerialIO.cpp
+  Shapes.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(29,18): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(40,18): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(51,18): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(66,18): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(182,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(183,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(198,25): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(203,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(257,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(258,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(274,25): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(279,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(308,57): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(308,41): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(308,25): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(337,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(338,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(353,25): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(358,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(426,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(427,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(444,25): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(449,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(478,57): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(478,41): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(478,25): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(551,46): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(552,46): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(554,38): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(555,38): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(577,10): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(606,25): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(609,25): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(614,24): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(617,24): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(673,10): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(685,24): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(689,25): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(696,25): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(800,46): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(801,46): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(803,38): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(804,38): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  sim.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '../src/sim.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(120,22): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(122,40): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(122,35): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(122,30): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(122,25): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(128,43): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(128,38): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(131,27): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(135,23): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(137,35): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(158,32): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(188,24): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(281,39): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(282,40): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(283,57): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(284,56): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(285,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(291,40): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(292,39): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(293,57): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(294,56): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(295,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(302,27): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(305,27): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(321,33): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(343,31): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(345,31): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(409,43): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(409,38): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(409,33): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(425,43): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(425,38): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\sim.cpp(425,33): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+  tcpFunc.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\tcpFunc.cpp(85,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Vector.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Vector.cpp(12,14): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Vector.cpp(13,14): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Vector.cpp(117,12): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Vector.cpp(192,9): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Vector.cpp(208,48): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  cylindrical.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'cylindrical.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\cylindrical.cpp(36,18): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\cylindrical.cpp(47,47): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  ezTrack_Vicon.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(207,87): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(208,87): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(209,87): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(270,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(271,9): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(272,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(274,9): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(275,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(276,9): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(278,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(279,9): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(280,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(283,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(286,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(296,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(300,35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\ezTrack_Vicon.cpp(301,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  warptex.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(64,12): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(65,13): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(86,12): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(88,13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(335,22): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(336,21): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(337,28): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(338,27): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(346,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\warptex.cpp(348,10): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+  ezTrack.cpp
+  hmd.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'hmd.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(18,12): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(19,12): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(20,12): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(48,9): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(58,44): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(58,33): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(61,45): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(61,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(75,12): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(80,10): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(81,10): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(83,15): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(84,12): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(85,14): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(100,32): warning C4244: '引数': 'double' から 'GLsizei' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(104,13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(105,13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(108,14): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(109,14): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(117,19): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(144,54): warning C4244: '引数': 'double' から 'GLsizei' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(144,33): warning C4244: '引数': 'double' から 'GLint' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(151,13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(152,13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(155,15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(156,13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(164,20): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(191,41): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\hmd.cpp(194,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  keyboard.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'keyboard.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\keyboard.cpp(35,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\keyboard.cpp(36,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\keyboard.cpp(77,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\keyboard.cpp(78,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\Shapes.cpp(102,1): warning C4717: 'ezWireTorus': すべてのコントロールのパス、関数を回帰するとランタイム スタック オーバーフローが発生します。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\ezZigSim.cpp(639,1): warning C4715: 'InvokeThread': 値を返さないコントロール パスがあります。
+  コンパイル中...
+  main.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\main.cpp(176,26): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\main.cpp(177,27): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\main.cpp(244,57): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  mouse.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'mouse.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\mouse.cpp(19,44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\mouse.cpp(20,44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\mouse.cpp(45,96): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\mouse.cpp(45,54): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\mouse.cpp(110,41): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\mouse.cpp(111,41): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  projview.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'projview.cpp' をコンパイルしています)
+  
+  stereo.cpp
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'stereo.cpp' をコンパイルしています)
+  
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\stereo.cpp(40,9): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\stereo.cpp(72,41): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\stereo.cpp(73,23): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\stereo.cpp(88,40): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\VR_Project\stereo.cpp(89,22): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  GLMetaseq.c
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(783,19): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(786,19): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(789,19): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(792,19): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(970,15): warning C4244: '/=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(971,15): warning C4244: '/=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(972,15): warning C4244: '/=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1037,18): warning C4244: '=': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1042,19): warning C4244: '=': '__int64' から 'int' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1325,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1326,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1327,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1350,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1351,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1352,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1371,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1372,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1373,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1394,33): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1401,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1402,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1403,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1426,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1427,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1428,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1448,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1449,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1450,51): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1532,23): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1533,23): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\src\GLMetaseq.c(1534,23): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+  isense.c
+  コードを生成中...
+  libjpeg.lib(jerror.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
+LINK : warning LNK4075: /INCREMENTAL は /LTCG の指定によって無視されます。
+     ライブラリ D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\x64\Debug\VR_Project_64.lib とオブジェクト D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\x64\Debug\VR_Project_64.exp を作成中
+LINK : warning LNK4098: defaultlib 'MSVCRT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+  コード生成しています。
+  コード生成が終了しました。
+  VR_Project.vcxproj -> D:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1119\x64\Debug\VR_Project_64.exe

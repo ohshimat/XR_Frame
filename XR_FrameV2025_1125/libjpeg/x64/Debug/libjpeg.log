@@ -1,0 +1,69 @@
+﻿  jaricom.c
+  jcapimin.c
+  jcapistd.c
+  jcarith.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdarith.c
+  コードを生成中...
+  コンパイル中...
+  jdatadst.c
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jdatadst.c(230): warning C4267: '=': 'size_t' から 'unsigned long' に変換しました。データが失われているかもしれません。
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jdmarker.c(331): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' の宣言を確認してください
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jdmarker.c(655): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' の宣言を確認してください
+  jdmaster.c
+  jdmerge.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jerror.c(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' の宣言を確認してください
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jerror.c(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' の宣言を確認してください
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  コードを生成中...
+  コンパイル中...
+  jidctint.c
+  jmemmgr.c
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jmemmgr.c(307): warning C4267: '+=': 'size_t' から 'long' に変換しました。データが失われているかもしれません。
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jmemmgr.c(367): warning C4267: '+=': 'size_t' から 'long' に変換しました。データが失われているかもしれません。
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jmemmgr.c(977): warning C4267: '-=': 'size_t' から 'long' に変換しました。データが失われているかもしれません。
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jmemmgr.c(991): warning C4267: '-=': 'size_t' から 'long' に変換しました。データが失われているかもしれません。
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jmemmgr.c(1107): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1191): note: 'getenv' の宣言を確認してください
+d:\develop\mylibjpeg\mylibjpeg\jpeg-9b\jmemmgr.c(1110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: 'sscanf' の宣言を確認してください
+  jmemnobs.c
+  jquant1.c
+  jquant2.c
+  jutils.c
+  コードを生成中...
+  libjpeg.vcxproj -> D:\Develop\mylibjpeg\mylibjpeg\libjpeg\x64\Debug\libjpeg.lib

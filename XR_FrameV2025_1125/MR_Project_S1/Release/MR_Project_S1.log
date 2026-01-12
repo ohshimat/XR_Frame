@@ -1,0 +1,76 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中間ディレクトリ (Release\) に別のプロジェクト (MR_Project.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  stdafx.cpp
+  Material.cpp
+  Mtl.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(96,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(199,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(248,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(255,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(207,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(212,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(220,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(225,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(233,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(240,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(284,18): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\Mtl.cpp(292,20): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ObjData.cpp
+  ObjDetailData.cpp
+  ObjLoader.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(184,7): warning C4101: 'tempCnt': ローカル変数は 1 度も使われていません。
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(500,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(501,52): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(514,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(515,52): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(540,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(546,54): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(566,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(572,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(585,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader.cpp(586,52): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ObjLoader_Seq.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader_Seq.cpp(32,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader_Seq.cpp(65,23): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader_Seq.cpp(80,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\ObjLoader_Seq.cpp(92,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  PngImage.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\PngImage.cpp(37,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\lib_ObjLoader\PngImage.cpp(112,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ThreedVector.cpp
+  calc.cpp
+  Com.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\Com.cpp(217,16): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\Com.cpp(269,21): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+  depth.cpp
+  draw.cpp
+  ezFont.cpp
+  ezJpeg.cpp
+  ezPNG.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\ezImage\ezPNG.cpp(18,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\ezImage\ezPNG.cpp(12,12): warning C4101: 'row': ローカル変数は 1 度も使われていません。
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\ezImage\ezPNG.cpp(13,12): warning C4101: 'px': ローカル変数は 1 度も使われていません。
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\ezImage\ezPNG.cpp(15,17): warning C4101: 'rawimage': ローカル変数は 1 度も使われていません。
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\ezImage\ezPNG.cpp(133,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ezWebCam.cpp
+  image.cpp
+  ezMIDI.cpp
+  ezUtil.cpp
+  gyro.cpp
+  コンパイル中...
+  light.cpp
+  mymodel.cpp
+  myShape.cpp
+  SerialIO.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\SerialIO.cpp(25,29): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  sim.cpp
+  tcpFunc.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\tcpFunc.cpp(85,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Vector.cpp
+  ezZigSim.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\ezZigSim.cpp(756,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  Shapes.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\src\Shapes.cpp(923,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  DirectInputDevice.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\MR_Project_S1\DirectInputDevice.cpp(195,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  OpenGLSample.cpp
+E:\★XR_FrameV2025_0725\★XR_FrameV2025_0913\MR_Project_S1\OpenGLSample.cpp(1843,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?

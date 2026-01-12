@@ -1,0 +1,1 @@
+D:\S1\Develop\mylibjpeg\mylibjpeg\libjpeg\Release\libjpeg.lib

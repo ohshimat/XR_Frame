@@ -1,0 +1,136 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 中間ディレクトリ (Release\) に別のプロジェクト (vrframe2020_v1.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  Material.cpp
+  Mtl.cpp
+  ObjData.cpp
+  ObjDetailData.cpp
+  ObjLoader.cpp
+  ObjLoader_Seq.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\lib_ObjLoader\ObjLoader_Seq.cpp(65,23): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\lib_ObjLoader\ObjLoader_Seq.cpp(80,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\lib_ObjLoader\ObjLoader_Seq.cpp(92,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  PngImage.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\lib_ObjLoader\PngImage.cpp(37,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\lib_ObjLoader\PngImage.cpp(112,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ThreedVector.cpp
+  calc.cpp
+  depth.cpp
+  draw.cpp
+  ezFont.cpp
+  Com.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\Com.cpp(217,16): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\Com.cpp(269,21): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+  ezGyro.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(35,18): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(48,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(49,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(50,50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(52,44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(53,57): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(59,3): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(62,3): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(130,9): warning C4476: 'printf' : 形式指定子に不明な種類フィールド文字 ' ' があります
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(130,9): warning C4778: 'printf' : 書式文字列 '%5.2\n' がありません
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(131,6): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+      G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\ezGyro.cpp(131,6):
+      プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、3 が指定されています。
+  
+  JY901.cpp
+  MPU6050.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(39,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(40,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(41,38): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(42,34): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(43,34): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(44,34): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(45,41): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(46,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(47,40): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(49,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(12,14): warning C4101: 'pitch': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(12,8): warning C4101: 'roll': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(10,8): warning C4101: 'ax': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(10,12): warning C4101: 'ay': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(10,16): warning C4101: 'az': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(12,21): warning C4101: 'yaw': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(89,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(90,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(91,42): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(92,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(93,47): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(94,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(95,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(96,46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(97,44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(99,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(59,14): warning C4101: 'pitch': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(59,8): warning C4101: 'roll': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(57,8): warning C4101: 'ax': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(58,8): warning C4101: 'gx': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(58,16): warning C4101: 'gz': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(57,12): warning C4101: 'ay': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(57,16): warning C4101: 'az': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(59,21): warning C4101: 'yaw': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezGyro\MPU6050.cpp(58,12): warning C4101: 'gy': ローカル変数は 1 度も使われていません。
+  ezJpeg.cpp
+  ezPNG.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezImage\ezPNG.cpp(18,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezImage\ezPNG.cpp(12,12): warning C4101: 'row': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezImage\ezPNG.cpp(13,12): warning C4101: 'px': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezImage\ezPNG.cpp(15,17): warning C4101: 'rawimage': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezImage\ezPNG.cpp(133,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ezWebCam.cpp
+  image.cpp
+  コンパイル中...
+  ezMIDI.cpp
+  ezUtil.cpp
+  ezZigSim.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(38,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(65,30): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(95,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(115,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(137,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(156,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(213,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(264,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(314,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(364,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(419,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(459,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\ezZigSim.cpp(496,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gyro.cpp
+  light.cpp
+  Matrix.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\Matrix.cpp(73,12): warning C4101: 'k': ローカル変数は 1 度も使われていません。
+  mymodel.cpp
+  myShape.cpp
+  perlinNoise.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\perlinNoise.cpp(57,11): warning C4101: 'y': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\perlinNoise.cpp(57,8): warning C4101: 'x': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\perlinNoise.cpp(87,11): warning C4101: 'y': ローカル変数は 1 度も使われていません。
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\perlinNoise.cpp(87,8): warning C4101: 'x': ローカル変数は 1 度も使われていません。
+  SerialIO.cpp
+  Shapes.cpp
+  sim.cpp
+  tcpFunc.cpp
+G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\src\tcpFunc.cpp(85,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Vector.cpp
+  cylindrical.cpp
+  ezTrack_Vicon.cpp
+  warptex.cpp
+  ezTrack.cpp
+  hmd.cpp
+  keyboard.cpp
+  コンパイル中...
+  main.cpp
+  mouse.cpp
+  projview.cpp
+  stereo.cpp
+  GLMetaseq.c
+  isense.c
+     ライブラリ G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\Release\VR_Project.lib とオブジェクト G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\Release\VR_Project.exp を作成中
+  コード生成しています。
+  1238 of 1588 functions (78.0%) were compiled, the rest were copied from previous compilation.
+    11 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  VR_Project.vcxproj -> G:\Projects\★XR_FrameV2025_0725\★XR_FrameV2025_1118\Release\VR_Project.exe

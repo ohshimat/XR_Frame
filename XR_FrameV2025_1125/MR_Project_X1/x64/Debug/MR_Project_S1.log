@@ -1,0 +1,95 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中間ディレクトリ (x64\Debug\) に別のプロジェクト (MR_Project.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  DirectInputDevice.cpp
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\DirectInputDevice.cpp(195,1): error C2857: /Ycstdafx.h コマンド ライン オプションで指定された '#include' ステートメントは、ソース ファイルに含まれていません。
+  OpenGLSample.cpp
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\include\ezMovie.h(97,10): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(63,16): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(63,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(63,17): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(64,17): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(64,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(64,18): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(66,18): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(66,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(66,19): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(68,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(68,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(68,14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(69,14): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(69,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(69,16): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(71,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(71,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(71,1): error C2086: 'int IMrhDepth70': 再定義されました。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(71,14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(72,14): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(72,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(72,1): error C2086: 'int IMrhPolygon70': 再定義されました。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(72,16): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(74,14): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(74,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(74,16): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(76,22): error C2143: 構文エラー: ';' が '*' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(76,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(76,23): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(457,35): error C2065: 'polygon': 定義されていない識別子です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(457,44): error C2062: 型 'bool' は不要です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(457,90): error C2143: 構文エラー: ';' が '{' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(457,90): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(522,39): error C2065: 'polygon': 定義されていない識別子です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(522,6): error C2182: 'renderColorVertex': 'void' のこの使用は無効です
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(522,48): error C2143: 構文エラー: ';' が '{' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(524,16): error C2065: 'polygon': 定義されていない識別子です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(525,2): error C2062: 型 'void' は不要です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(526,2): error C2059: 構文エラー: 'if'
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(526,22): error C2143: 構文エラー: ';' が '{' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(526,22): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(530,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(530,2): error C2365: 'glPushAttrib': 再定義; 以前の定義は '関数' でした。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(531,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(531,2): error C2365: 'glEnable': 再定義; 以前の定義は '関数' でした。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,2): error C2059: 構文エラー: 'for'
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,23): error C2143: 構文エラー: ')' が ';' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,32): error C2143: 構文エラー: ';' が '<' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,25): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,32): error C2059: 構文エラー: '<'
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,45): error C2059: 構文エラー: '++'
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,53): error C2059: 構文エラー: ')'
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,55): error C2143: 構文エラー: ';' が '{' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(540,55): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(570,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(570,2): error C2556: 'int glPopAttrib(void)': オーバーロード関数は、'void glPopAttrib(void)' と戻り値の型のみが異なります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(570,2): error C2371: 'glPopAttrib': 再定義されています。異なる基本型です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(571,1): error C2059: 構文エラー: '}'
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(571,1): error C2143: 構文エラー: ';' が '}' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(579,1): error C2143: 構文エラー: ';' が '{' の前にありません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(579,1): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(776,4): error C2664: 'void copyCamera(IMrhCamera *,TargetT *,bool)': 引数 1 を 'int *' から 'IMrhCamera *' へ変換できません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(780,4): error C2664: 'void copyCamera(IMrhCamera *,TargetT *,bool)': 引数 1 を 'int *' から 'IMrhCamera *' へ変換できません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(790,74): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(790,52): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(790,30): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(804,3): error C3861: 'renderWarningObject': 識別子が見つかりませんでした
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(809,5): error C3861: 'renderPolygon': 識別子が見つかりませんでした
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(811,5): error C3861: 'renderPolygon': 識別子が見つかりませんでした
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(812,5): error C2064: 1 引数を取り込む関数には評価されません。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(813,5): error C3861: 'renderPolygon': 識別子が見つかりませんでした
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(889,18): error C2737: 'res': const オブジェクトを初期化する必要があります
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(906,18): error C2737: 'res': const オブジェクトを初期化する必要があります
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(918,19): error C2737: 'res': const オブジェクトを初期化する必要があります
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1111,32): error C2065: 'CLSID_CMrhEngine62': 定義されていない識別子です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1111,73): error C2065: 'IID_IMrhEngine62': 定義されていない識別子です。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1172,16): error C2737: 'resQueryDepth': const オブジェクトを初期化する必要があります
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1741,30): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1742,30): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1743,30): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1748,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1789,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1790,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1791,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1796,51): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1832,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1833,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1834,45): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_0708_VC2017_S1_V1基本プログラム対応版\MR_Project_S1\OpenGLSample.cpp(1839,51): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  stdafx.cpp

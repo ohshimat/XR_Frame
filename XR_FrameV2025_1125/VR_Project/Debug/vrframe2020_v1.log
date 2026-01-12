@@ -1,0 +1,409 @@
+﻿  Material.cpp
+  Mtl.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(211): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(224): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(239): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(273): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(290): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(199): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(207): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(212): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(220): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(225): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(233): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(240): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(248): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(255): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(284): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\mtl.cpp(292): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+  ObjData.cpp
+  ObjDetailData.cpp
+  ObjLoader.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(248): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(247): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(184): warning C4101: 'tempCnt': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(500): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(501): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(514): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(515): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(540): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(546): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(566): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(572): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(585): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader.cpp(586): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' の宣言を確認してください
+  ObjLoader_Seq.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader_seq.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader_seq.cpp(65): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader_seq.cpp(80): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\objloader_seq.cpp(92): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  PngImage.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\pngimage.cpp(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\lib_objloader\pngimage.cpp(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' の宣言を確認してください
+  ThreedVector.cpp
+  calc.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(12): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(13): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(256): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(257): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(258): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(275): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(276): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(277): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(278): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(279): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(280): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(332): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\calc.cpp(349): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Com.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\com.cpp(217): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\com.cpp(269): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+  depth.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\depth.h(55): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(13): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(14): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(15): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(27): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(30): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(31): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(46): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(98): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(99): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(106): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(110): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\depth.cpp(111): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  draw.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\depth.h(55): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(27): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(41): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(103): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(150): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(153): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(183): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(214): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(222): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\draw.cpp(229): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+  ezFont.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezfont.cpp(77): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+  ezJpeg.cpp
+  ezPNG.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezimage\ezpng.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' の宣言を確認してください
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezimage\ezpng.cpp(12): warning C4101: 'row': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezimage\ezpng.cpp(13): warning C4101: 'px': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezimage\ezpng.cpp(15): warning C4101: 'rawimage': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezimage\ezpng.cpp(133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' の宣言を確認してください
+  ezWebCam.cpp
+  image.cpp
+  ezMIDI.cpp
+  ezUtil.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(49): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(50): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(83): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(84): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(95): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(96): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(108): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(336): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(339): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(350): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(354): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\ezutil.cpp(355): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  gyro.cpp
+  コードを生成中...
+  コンパイル中...
+  light.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(9): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(48): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(93): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(94): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(126): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(127): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(157): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(158): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(188): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\light.cpp(191): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  mymodel.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\mymodel.cpp(62): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\mymodel.cpp(66): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\mymodel.cpp(67): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\mymodel.cpp(68): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  myShape.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(12): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(14): warning C4305: '引数': 'double' から 'GLfloat' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(14): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(17): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(27): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(28): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(50): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(51): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(53): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(56): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(57): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(65): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(66): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(73): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\myshape.cpp(74): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  SerialIO.cpp
+  sim.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\depth.h(55): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(105): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(110): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(111): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(112): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(119): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(122): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(124): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(125): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(128): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(215): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(216): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(219): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(273): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(274): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(275): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(276): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(277): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(278): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(279): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(280): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(281): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(283): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(246): warning C4101: 'pitch': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(246): warning C4101: 'roll': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(244): warning C4101: 'ax': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(244): warning C4101: 'ay': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(244): warning C4101: 'az': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(246): warning C4101: 'yaw': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(323): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(324): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(325): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(326): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(327): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(328): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(329): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(330): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(331): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(333): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(293): warning C4101: 'pitch': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(293): warning C4101: 'roll': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(291): warning C4101: 'ax': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(292): warning C4101: 'gx': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(292): warning C4101: 'gz': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(291): warning C4101: 'ay': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(291): warning C4101: 'az': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(293): warning C4101: 'yaw': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(292): warning C4101: 'gy': ローカル変数は 1 度も使われていません。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(474): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(475): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(476): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(477): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(478): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(484): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(485): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(486): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(487): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(488): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(495): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(498): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(542): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(563): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(564): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(584): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\sim.cpp(599): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+  tcpFunc.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\tcpfunc.cpp(85): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 'inet_addr' の宣言を確認してください
+  cylindrical.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\cylindrical.cpp(36): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\cylindrical.cpp(47): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  warptex.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(64): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(65): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(86): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(88): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(335): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(336): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(337): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(338): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(346): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(348): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\warptex.cpp(364): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1469): note: 'vsprintf' の宣言を確認してください
+  ezTrack.cpp
+  hmd.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(48): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(56): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(61): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(62): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(64): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(65): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(66): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(85): warning C4244: '引数': 'double' から 'GLsizei' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(89): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(90): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(93): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(94): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(102): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(129): warning C4244: '引数': 'double' から 'GLsizei' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(129): warning C4244: '引数': 'double' から 'GLint' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(136): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(137): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(140): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(141): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(149): warning C4244: '引数': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(176): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\hmd.cpp(179): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  keyboard.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\keyboard.cpp(43): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\keyboard.cpp(44): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\keyboard.cpp(181): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\keyboard.cpp(182): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  main.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(17): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(18): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(19): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(75): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(186): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(187): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(232): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\main.cpp(235): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  mouse.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\mouse.cpp(19): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\mouse.cpp(20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\mouse.cpp(45): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\mouse.cpp(110): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\mouse.cpp(111): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  projview.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  stereo.cpp
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\include\ezmovie.h(97): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\stereo.cpp(38): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\stereo.cpp(74): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\stereo.cpp(75): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\stereo.cpp(90): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\vrframe2020_v1\stereo.cpp(91): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  GLMetaseq.c
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(783): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(786): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(789): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(792): warning C4244: '*=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(970): warning C4244: '/=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(971): warning C4244: '/=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(972): warning C4244: '/=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1325): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1326): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1327): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1350): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1351): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1352): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1371): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1372): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1373): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1394): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1401): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1402): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1403): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1426): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1427): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1428): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1448): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1449): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1450): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1532): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1533): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+g:\プログラム教材アップデート作業\xr_framev2023_1126_vc2017_freeglutx64\src\glmetaseq.c(1534): warning C4244: '=': 'double' から 'GLfloat' への変換です。データが失われる可能性があります。
+  isense.c
+  コードを生成中...
+  libjpeg.lib(jerror.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
+LINK : warning LNK4075: /INCREMENTAL は /LTCG の指定によって無視されます。
+     ライブラリ G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\vrframe2020_v1.lib とオブジェクト G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\vrframe2020_v1.exp を作成中
+LINK : warning LNK4098: defaultlib 'MSVCRT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+  コード生成しています。
+  コード生成が終了しました。
+libjpeg.lib(jerror.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jerror.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcapimin.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcapimin.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdapimin.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdapimin.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdatadst.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdatadst.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdatasrc.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdatasrc.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcparam.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcparam.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcapistd.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcapistd.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdapistd.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdapistd.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcomapi.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcomapi.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jutils.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jutils.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jmemmgr.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jmemmgr.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcmarker.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcmarker.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdmarker.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdmarker.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdinput.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdinput.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcinit.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcinit.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdmaster.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdmaster.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jmemnobs.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jmemnobs.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcarith.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcarith.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcprepct.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcprepct.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcsample.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcsample.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcmainct.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcmainct.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcmaster.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcmaster.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jccoefct.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jccoefct.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jccolor.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jccolor.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jchuff.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jchuff.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jcdctmgr.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jcdctmgr.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jquant1.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jquant1.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdmerge.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdmerge.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdsample.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdsample.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdhuff.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdhuff.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jquant2.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jquant2.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdarith.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdarith.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdcoefct.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdcoefct.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdcolor.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdcolor.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdmainct.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdmainct.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jddctmgr.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jddctmgr.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jdpostct.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jdpostct.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jaricom.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jaricom.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jfdctint.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jfdctint.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jfdctfst.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jfdctfst.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jfdctflt.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jfdctflt.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jidctint.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jidctint.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jidctfst.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jidctfst.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+libjpeg.lib(jidctflt.obj) : warning LNK4099: PDB 'libjpeg.pdb' が 'libjpeg.lib(jidctflt.obj)' で、または 'G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\libjpeg.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  vrframe2020_v1.vcxproj -> G:\プログラム教材アップデート作業\XR_FrameV2023_1126_VC2017_freeglutx64\Debug\vrframe2020_v1.exe

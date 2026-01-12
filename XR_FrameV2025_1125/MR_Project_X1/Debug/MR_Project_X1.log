@@ -1,0 +1,377 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中間ディレクトリ (Debug\) に別のプロジェクト (MR_Project.vcxproj, MR_Project_S1.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  stdafx.cpp
+  Material.cpp
+  Mtl.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(96,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(199,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(207,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(212,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(220,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(225,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(233,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(240,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(248,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(255,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(284,18): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\Mtl.cpp(292,20): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ObjData.cpp
+  ObjDetailData.cpp
+  ObjLoader.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(184,7): warning C4101: 'tempCnt': ローカル変数は 1 度も使われていません。
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(500,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(501,52): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(514,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(515,52): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(540,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(546,54): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(566,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(572,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(585,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader.cpp(586,52): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ObjLoader_Seq.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader_Seq.cpp(32,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader_Seq.cpp(65,23): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader_Seq.cpp(80,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\ObjLoader_Seq.cpp(92,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  PngImage.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\PngImage.cpp(37,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\lib_ObjLoader\PngImage.cpp(112,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ThreedVector.cpp
+  calc.cpp
+  Com.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\Com.cpp(217,16): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\Com.cpp(269,21): warning C4334: '<<': 32 ビット シフトの結果が暗黙的に 64 ビットに変換されました (64 ビット シフトに意図的に変換しようとしましたか?)
+  depth.cpp
+  draw.cpp
+  ezFont.cpp
+  ezJpeg.cpp
+  ezPNG.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\ezImage\ezPNG.cpp(18,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\ezImage\ezPNG.cpp(12,12): warning C4101: 'row': ローカル変数は 1 度も使われていません。
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\ezImage\ezPNG.cpp(13,12): warning C4101: 'px': ローカル変数は 1 度も使われていません。
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\ezImage\ezPNG.cpp(15,17): warning C4101: 'rawimage': ローカル変数は 1 度も使われていません。
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\ezImage\ezPNG.cpp(133,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ezWebCam.cpp
+  image.cpp
+  ezMIDI.cpp
+  ezUtil.cpp
+  gyro.cpp
+  コードを生成中...
+  コンパイル中...
+  light.cpp
+  mymodel.cpp
+  myShape.cpp
+  SerialIO.cpp
+  sim.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\sim.cpp(215,6): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+  tcpFunc.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\tcpFunc.cpp(85,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  コードを生成中...
+  GLMetaseq.c
+  isense.c
+  コードを生成中...
+  Matrix.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\Matrix.cpp(398,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  Shapes.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\Shapes.cpp(923,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  Vector.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\src\Vector.cpp(206,1): error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  DirectInputDevice.cpp
+  UsersGuideSample-6.cpp
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(16,17): error C2065: 'IMrhTarget61': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(16,31): error C2065: 'target': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(16,39): error C2062: 型 'int' は不要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(18,17): error C2065: 'IMrhCamera60': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(18,31): error C2065: 'camera': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(18,48): error C2065: 'target': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(18,39): error C2275: 'TargetT': 型の代わりに式が必要です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(18,56): error C2062: 型 'bool' は不要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(42,16): error C2143: 構文エラー: ';' が '*' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(42,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(42,17): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(43,16): error C2143: 構文エラー: ';' が '*' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(43,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(43,17): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(45,18): error C2143: 構文エラー: ';' が '*' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(45,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(45,19): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(46,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(46,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(46,14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(47,14): error C2143: 構文エラー: ';' が '*' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(47,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(47,16): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(48,24): error C2065: 'IMrhTarget61': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(48,37): error C2059: 構文エラー: '>'
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(48,8): error C2062: 型 'unknown-type' は不要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(72,20): error C2065: 'IMrhTarget61': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(72,34): error C2065: '_pTarget': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(72,6): error C2182: 'renderTarget': 'void' のこの使用は無効です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(148,16): warning C4838: 'DWORD' から 'LONG' への変換には縮小変換が必要です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(148,22): warning C4838: 'DWORD' から 'LONG' への変換には縮小変換が必要です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(148,33): warning C4838: 'unsigned long' から 'LONG' への変換には縮小変換が必要です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(148,46): warning C4838: 'unsigned long' から 'LONG' への変換には縮小変換が必要です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(197,33): error C2065: 'CLSID_CMrhEngine62': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(197,74): error C2065: 'IID_IMrhEngine62': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(284,53): error C2065: 'mpTargets': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(541,7): error C2065: 'mpTargets': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(543,15): error C2065: 'mpTargets': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(543,4): error C3861: 'copyTarget': 識別子が見つかりませんでした
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(546,15): error C2065: 'mpTargets': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(546,4): error C3861: 'copyTarget': 識別子が見つかりませんでした
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(607,4): error C3861: 'copyCamera': 識別子が見つかりませんでした
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(610,4): error C3861: 'copyCamera': 識別子が見つかりませんでした
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(637,31): error C2065: 'camera': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(637,48): error C2065: 'target': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(637,39): error C2275: 'TargetT': 型の代わりに式が必要です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(637,56): error C2062: 型 'bool' は不要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(638,1): error C2143: 構文エラー: ';' が '{' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(638,1): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(668,17): error C2065: 'IMrhTarget61': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(668,31): error C2065: '_pTarget': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(668,41): error C2062: 型 'int' は不要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(669,1): error C2143: 構文エラー: ';' が '{' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(669,1): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(766,20): error C2065: 'IMrhTarget61': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(766,34): error C2065: '_pTarget': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(766,6): error C2182: 'renderTarget': 'void' のこの使用は無効です
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(766,6): error C2374: 'renderTarget': 再定義されています。2 回以上初期化されています。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(72,6):
+      'renderTarget' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(766,45): error C2143: 構文エラー: ';' が '{' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(768,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(768,2): error C2556: 'int glPushMatrix(void)': オーバーロード関数は、'void glPushMatrix(void)' と戻り値の型のみが異なります。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1367,25):
+      'glPushMatrix' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(768,2): error C2373: 'glPushMatrix': 再定義されています。異なる型修飾子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1367,25):
+      'glPushMatrix' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(775,2): error C3927: '->': 後続の戻り値の型は、関数以外の宣言子の後に許可されていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(775,12): error C3613: '->' の後に戻り型が指定されていません ('int' と見なされます)
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(775,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(775,12): error C2146: 構文エラー: ';' が、識別子 'GetPosition' の前に必要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(776,2): error C3927: '->': 後続の戻り値の型は、関数以外の宣言子の後に許可されていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(776,12): error C3613: '->' の後に戻り型が指定されていません ('int' と見なされます)
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(776,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(776,2): error C2086: 'int _pTarget': 再定義されました。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(775,2):
+      '_pTarget' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(776,12): error C2146: 構文エラー: ';' が、識別子 'GetOrientation' の前に必要です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(780,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(780,2): error C2365: 'glTranslatef': 再定義; 以前の定義は '関数' でした。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1466,25):
+      'glTranslatef' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(781,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(781,2): error C2365: 'glRotatef': 再定義; 以前の定義は '関数' でした。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1405,25):
+      'glRotatef' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(785,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(785,2): error C2365: 'glRotatef': 再定義; 以前の定義は '関数' でした。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1405,25):
+      'glRotatef' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(786,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(786,2): error C2365: 'dispCylinder': 再定義; 以前の定義は '関数' でした。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample.h(30,6):
+      'dispCylinder' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(787,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(787,2): error C2556: 'int glPopMatrix(void)': オーバーロード関数は、'void glPopMatrix(void)' と戻り値の型のみが異なります。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1362,25):
+      'glPopMatrix' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(787,2): error C2373: 'glPopMatrix': 再定義されています。異なる型修飾子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1362,25):
+      'glPopMatrix' の宣言を確認してください
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(788,1): error C2059: 構文エラー: '}'
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(788,1): error C2143: 構文エラー: ';' が '}' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(794,36): error C2143: 構文エラー: ';' が '{' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(794,36): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(851,30): error C2065: 'IMrhTarget61': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(851,43): error C2059: 構文エラー: '>'
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(851,46): error C2530: 'target': 参照が初期化されずに宣言されています。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(851,53): error C2143: 構文エラー: ';' が ':' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(851,55): error C2065: 'mpTargets': 定義されていない識別子です。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+H:\S1\MR S1対応作業\プログラム教材アップデート作業\★XR_FrameV2024_1006\★XR_FrameV2024_1116\MR_Project_X1\UsersGuideSample-6.cpp(851,64): error C2143: 構文エラー: ';' が ')' の前にありません。
+  (ソース ファイル '/UsersGuideSample-6.cpp' をコンパイルしています)
+  
+  コードを生成中...

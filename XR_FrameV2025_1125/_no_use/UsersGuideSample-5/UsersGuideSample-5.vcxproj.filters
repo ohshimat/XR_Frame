@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mreal_main.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calc.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Com.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\depth.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\draw.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezFont.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezMIDI.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezUtil.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GLMetaseq.c">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InterSense\gyro.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InterSense\isense.c">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\light.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mymodel.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\myShape.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SerialIO.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sim.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tcpFunc.cpp">
+      <Filter>ソースファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezImage\ezJpeg.cpp">
+      <Filter>ソースファイル\common\ezImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezImage\ezPNG.cpp">
+      <Filter>ソースファイル\common\ezImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezImage\ezWebCam.cpp">
+      <Filter>ソースファイル\common\ezImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ezImage\image.cpp">
+      <Filter>ソースファイル\common\ezImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\Material.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\Mtl.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\ObjData.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\ObjDetailData.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\ObjLoader.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\ObjLoader_Seq.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\PngImage.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_ObjLoader\ThreedVector.cpp">
+      <Filter>ソースファイル\ObjLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UsersGuideSample.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\calc.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Com.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\depth.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ezFont.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ezMIDI.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ezUtil.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\font.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GLMetaseq.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InterSense\gyro.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\light.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mymodel.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\myShape.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\object.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\platform.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SerialIO.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sim.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcpData.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcpFunc.h">
+      <Filter>ヘッダーファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\Material.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\Mtl.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\ObjData.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\ObjDetailData.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\ObjLoader.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\ObjLoader_Seq.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\PngImage.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\TextureCoordinate.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_ObjLoader\ThreedVector.h">
+      <Filter>ヘッダーファイル\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{9800a229-3a3f-4640-b078-5e7af6e2e894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{dae2066e-a0b2-409d-8943-7e28b6572750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\common">
+      <UniqueIdentifier>{36ab7ea7-aae7-490c-812a-3c1985823aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\common\ezImage">
+      <UniqueIdentifier>{fe7adf8e-3224-4353-b3c6-99b4875cbccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\advanced">
+      <UniqueIdentifier>{4bdb3edc-a8bc-4322-aab2-a356a21bd9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\ObjLoader">
+      <UniqueIdentifier>{76cadc4c-0eca-4c78-9c7f-fe58d0368307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\common">
+      <UniqueIdentifier>{ccdd9abe-e73b-48b6-af2a-f047a6661cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\ObjLoader">
+      <UniqueIdentifier>{a5aef655-0223-45d9-86db-60aa252460c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソースファイル">
+      <UniqueIdentifier>{ca4fd6a5-75db-4b3e-983f-a676a024d05a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sample.ico">
+      <Filter>リソースファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>

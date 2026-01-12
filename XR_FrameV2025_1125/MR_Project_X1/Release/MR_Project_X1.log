@@ -1,0 +1,49 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 中間ディレクトリ (Release\) に別のプロジェクト (MR_Project.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  stdafx.cpp
+  Material.cpp
+  Mtl.cpp
+  ObjData.cpp
+  ObjDetailData.cpp
+  ObjLoader.cpp
+  ObjLoader_Seq.cpp
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\lib_ObjLoader\ObjLoader_Seq.cpp(65,23): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\lib_ObjLoader\ObjLoader_Seq.cpp(80,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\lib_ObjLoader\ObjLoader_Seq.cpp(92,22): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  PngImage.cpp
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\lib_ObjLoader\PngImage.cpp(37,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\lib_ObjLoader\PngImage.cpp(112,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ThreedVector.cpp
+  calc.cpp
+  depth.cpp
+  draw.cpp
+  ezFont.cpp
+  ezJpeg.cpp
+  ezPNG.cpp
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\ezImage\ezPNG.cpp(18,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\ezImage\ezPNG.cpp(12,12): warning C4101: 'row': ローカル変数は 1 度も使われていません。
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\ezImage\ezPNG.cpp(13,12): warning C4101: 'px': ローカル変数は 1 度も使われていません。
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\ezImage\ezPNG.cpp(15,17): warning C4101: 'rawimage': ローカル変数は 1 度も使われていません。
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\ezImage\ezPNG.cpp(133,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ezWebCam.cpp
+  image.cpp
+  ezMIDI.cpp
+  ezUtil.cpp
+  gyro.cpp
+  light.cpp
+  コンパイル中...
+  Matrix.cpp
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\Matrix.cpp(73,12): warning C4101: 'k': ローカル変数は 1 度も使われていません。
+  mymodel.cpp
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\mymodel.cpp(117,11): error C2660: 'ezGround_MakeCircle': 関数に 5 個の引数を指定できません。
+      D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\include\perlinNoise.h(22,8):
+      'ezGround_MakeCircle' の宣言を確認してください
+      D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\mymodel.cpp(117,11):
+      引数リスト '(double, double, double, double, double)' を一致させようとしているとき
+  
+  myShape.cpp
+  SerialIO.cpp
+  Shapes.cpp
+  sim.cpp
+  tcpFunc.cpp
+D:\SSD_DATA\★XR_FrameV2025_0725\★XR_FrameV2025_1113\src\tcpFunc.cpp(85,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Vector.cpp
