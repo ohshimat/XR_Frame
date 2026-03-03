@@ -6,9 +6,12 @@
 //-------- object data
 typedef struct _objdata_t{
 
+	int id; ///// ◆オブジェクトのID（追加:VRFL）
+
 #ifdef VECTORMODE
 	vector_t pos;
 	euler_t rot;
+	euler_t offrot; ///// ◆モデルのオフセット回転（追加:VRFL）
 #else
     float x, y, z; ///// ◆レイアウト位置
 	float roll, pitch, yaw; /////◆姿勢
@@ -35,8 +38,10 @@ typedef struct _objdata_t{
 
 	///
 	_objdata_t() {
+		id = -1;
 		pos = vector_t();
 		rot = euler_t();
+		offrot = euler_t();
 		state = 0;
 		visible = true;
 
