@@ -36,6 +36,7 @@ namespace VRFL
 			}
 
 			ifs.open(filename);
+			if (!ifs.is_open()) return false;
 
 			while (std::getline(ifs, line))
 			{
