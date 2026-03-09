@@ -104,7 +104,7 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;libjpeg.lib;freeglutd.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)"</Command>
+      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
       <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -126,7 +126,7 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;libjpeg.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)"</Command>
+      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
       <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -137,6 +137,8 @@
       </SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,7 +146,7 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;freeglut.lib;libjpeg.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)"</Command>
+      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
       <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -157,6 +159,8 @@
       </SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -166,7 +170,7 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;freeglut.lib;libjpeg.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)"</Command>
+      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
       <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>

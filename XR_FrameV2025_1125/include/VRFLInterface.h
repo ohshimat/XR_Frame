@@ -76,5 +76,25 @@ namespace VRFL
 
 		VRFL_DECLSPEC int MQOTextureSize(int textureID);
 		VRFL_DECLSPEC bool MQOTextureImage(int textureID, unsigned char* image);
+
+		// OBJ
+		VRFL_DECLSPEC void OBJInit();
+		VRFL_DECLSPEC void OBJCleanUp();
+
+		VRFL_DECLSPEC bool OBJCreateModel(char* filename, double scale);
+		VRFL_DECLSPEC void OBJDeleteModel();
+
+		VRFL_DECLSPEC int OBJMaterialCount();
+		VRFL_DECLSPEC int OBJArrayCount(int materialID);
+		VRFL_DECLSPEC bool OBJArrayInfo(int materialID, float* vertex, float* normal, float* uv);
+
+		VRFL_DECLSPEC bool OBJMaterialInfo(int materialID,
+			int* hasAmbient, float* ambient,
+			int* hasDiffuse, float* diffuse,
+			int* hasSpecular, float* specular,
+			int* hasTransparency, float* transparency,
+			int* hasShininess, int* shininess,
+			int* hasIllumination, int* illumination,
+			int* hasTexture, int* textureID);
 	}
 }

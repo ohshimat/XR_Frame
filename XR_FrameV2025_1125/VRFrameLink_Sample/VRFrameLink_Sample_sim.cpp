@@ -82,6 +82,82 @@ void InitScene(void)
 {
 	printf(">>InitScene\n");
 
+	VRFL::OBJInit();
+	if (VRFL::OBJCreateModel("../objmodel/iltj/Box.obj", 1.0)) {
+		printf("OBJモデルの読み込みに成功しました。\n");
+	}
+	else {
+		printf("OBJモデルの読み込みに失敗しました。\n");
+	}
+
+	int materialCount = VRFL::OBJMaterialCount();
+    printf("OBJモデルのマテリアル数: %d\n", materialCount);
+
+	// TODO : データの取り出し
+    for (int i = 0; i < materialCount; i++) {
+        int arrayCount = VRFL::OBJArrayCount(i);
+        printf("マテリアル%dの頂点数: %d\n", i, arrayCount);
+        float* vertex = new float[arrayCount * 3];
+        float* normal = new float[arrayCount * 3];
+        float* uv = new float[arrayCount * 2];
+        if (VRFL::OBJArrayInfo(i, vertex, normal, uv)) {
+            printf("マテリアル%dの頂点情報を取得しました。\n", i);
+        }
+        else {
+            printf("マテリアル%dの頂点情報の取得に失敗しました。\n", i);
+        }
+        delete[] vertex;
+        delete[] normal;
+        delete[] uv;
+
+        int hasAmbient, hasDiffuse, hasSpecular, hasTransparency, hasShininess, hasIllumination, hasTexture;
+        float ambient[3], diffuse[3], specular[3], transparency;
+        int shininess, illumination, textureID;
+        if (VRFL::OBJMaterialInfo(i,
+            &hasAmbient, ambient,
+            &hasDiffuse, diffuse,
+            &hasSpecular, specular,
+            &hasTransparency, &transparency,
+            &hasShininess, &shininess,
+            &hasIllumination, &illumination,
+            &hasTexture, &textureID)) {
+            printf("マテリアル%dのマテリアル情報を取得しました。\n", i);
+            printf("  環境光: %s\n", hasAmbient ? "あり" : "なし");
+            if (hasAmbient) {
+                printf("    R: %f, G: %f, B: %f\n", ambient[0], ambient[1], ambient[2]);
+            }
+            printf("  拡散光: %s\n", hasDiffuse ? "あり" : "なし");
+            if (hasDiffuse) {
+                printf("    R: %f, G: %f, B: %f\n", diffuse[0], diffuse[1], diffuse[2]);
+            }
+            printf("  鏡面光: %s\n", hasSpecular ? "あり" : "なし");
+            if (hasSpecular) {
+                printf("    R: %f, G: %f, B: %f\n", specular[0], specular[1], specular[2]);
+            }
+            printf("  透明度: %s\n", hasTransparency ? "あり" : "なし");
+            if (hasTransparency) {
+                printf("    透明度: %f\n", transparency);
+            }
+            printf("  鏡面係数: %s\n", hasShininess ? "あり" : "なし");
+            if (hasShininess) {
+                printf("    鏡面係数: %d\n", shininess);
+            }
+            printf("  イルミネーション: %s\n", hasIllumination ? "あり" : "なし");
+            if (hasIllumination) {
+                printf("    イルミネーション: %d\n", illumination);
+            }
+            printf("  テクスチャ: %s\n", hasTexture ? "あり" : "なし");
+			if (hasTexture) {
+				printf("    テクスチャID: %d\n", textureID);
+			}
+        }
+        else {
+            printf("マテリアル%dのマテリアル情報の取得に失敗しました。\n", i);
+        }
+    }
+	VRFL::OBJDeleteModel();
+	VRFL::OBJCleanUp();
+
 #ifndef MREALMODE
 	/*
 	tracker = new ezTracker( use_tracker ); //VICON使うときはtrue

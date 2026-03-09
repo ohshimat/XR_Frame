@@ -400,10 +400,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3980716148506563680, guid: 6aef40705542a3042985a6fe2052c5e0, type: 3}
-      propertyPath: ConfigFile
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3980716148506563682, guid: 6aef40705542a3042985a6fe2052c5e0, type: 3}
       propertyPath: m_RootOrder
       value: 2

@@ -58,7 +58,7 @@ public class VRFLModelManager : MonoBehaviour
 
             if (cd.FileName.Length != 0)
             {
-                m.Object = LoadMqo.LoadMqoFile(cd.FileName, cd.Scale, m_material);
+                m.Object = LoadModel.LoadModelFile(cd.FileName, cd.Scale, m_material);
                 m.Object.name = m.Name;
             }
             else
@@ -92,13 +92,13 @@ public class VRFLModelManager : MonoBehaviour
         {
             VRFLModel m = m_models[rd.ID];
 
-            if(m.Object == null) return;
+            if (m.Object == null) return;
 
             Vector3 pos = new Vector3(rd.Pos[0], rd.Pos[1], -rd.Pos[2]); // 右手系 → 左手系
             Quaternion rot = new Quaternion(rd.Rot[0], rd.Rot[1], -rd.Rot[2], -rd.Rot[3]); // 右手系 → 左手系
 
             // 表示/非表示の適用
-            if(rd.Visible > 0) m.Object.SetActive(true);
+            if (rd.Visible > 0) m.Object.SetActive(true);
             else m.Object.SetActive(false);
 
             m.Object.transform.position = pos;

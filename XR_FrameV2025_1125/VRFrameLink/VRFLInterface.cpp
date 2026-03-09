@@ -8,6 +8,8 @@
 
 #include "object.h"
 
+#include "UnityObj.h"
+
 namespace VRFL
 {
 	// Initialize, Release
@@ -111,4 +113,56 @@ namespace VRFL
 		return u_mqoTextureImage(textureID, image);
 	}
 
+    // OBJ (for Unity)
+	void OBJInit()
+	{
+
+	}
+	void OBJCleanUp()
+	{
+
+	}
+
+	bool OBJCreateModel(char* filename, double scale)
+	{
+        return u_objCreateModel(filename, scale);
+	}
+	void OBJDeleteModel()
+	{
+		u_objDeleteModel();
+	}
+
+    int OBJMaterialCount()
+    {
+        return u_objMaterialCount();
+    }
+
+	int OBJArrayCount(int materialID)
+	{
+        return u_objArrayCount(materialID);
+	}
+	
+	bool OBJArrayInfo(int materialID, float* vertex, float* normal, float* uv)
+	{
+        return u_objArrayInfo(materialID, vertex, normal, uv);
+	}
+
+	bool OBJMaterialInfo(int materialID,
+		int* hasAmbient, float* ambient,
+		int* hasDiffuse, float* diffuse,
+		int* hasSpecular, float* specular,
+		int* hasTransparency, float* transparency,
+		int* hasShininess, int* shininess,
+		int* hasIllumination, int* illumination,
+		int* hasTexture, int* textureID)
+	{
+		return u_objMaterialInfo(materialID,
+			hasAmbient, ambient,
+			hasDiffuse, diffuse,
+			hasSpecular, specular,
+			hasTransparency, transparency,
+			hasShininess, shininess,
+			hasIllumination, illumination,
+			hasTexture, textureID);
+	}
 }

@@ -16,6 +16,12 @@
     <Filter Include="ヘッダー ファイル\common">
       <UniqueIdentifier>{551e12b3-2e88-4137-b923-b6aa142c46c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\UnityObj">
+      <UniqueIdentifier>{e9a87776-be72-49b2-a6be-a7b7146a444f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UnityObj">
+      <UniqueIdentifier>{d5deee83-2259-4239-8073-02d00b7206a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -72,6 +78,33 @@
     <ClInclude Include="UnityMetaseq.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="UnityMtl.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityObj.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityObjData.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityObjDetailData.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityObjLoader.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityObjLoader_Seq.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityPngImage.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityTextureCoordinate.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityThreedVector.h">
+      <Filter>ヘッダー ファイル\UnityObj</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -106,6 +139,30 @@
     </ClCompile>
     <ClCompile Include="UnityMetaseq.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityMtl.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityObjData.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityObjDetailData.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityObjLoader.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityObjLoader_Seq.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityPngImage.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityThreedVector.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityObj.cpp">
+      <Filter>ソース ファイル\UnityObj</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

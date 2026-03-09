@@ -120,19 +120,19 @@ public class LoadMqo {
                         Vector3[] vvec, vnorm;
                         Vector2[] vuv;
 
-                        vvec = convertFloatToVector3(vert, arraysize);
-                        vnorm = convertFloatToVector3(norm, arraysize);
+                        vvec = LoadUtil.ConvertFloatToVector3(vert, arraysize);
+                        vnorm = LoadUtil.ConvertFloatToVector3(norm, arraysize);
 
                         mesh.vertices = vvec;
                         mesh.normals = vnorm;
 
                         if(isvalid!= 0 && hastexture != 0)
                         {
-                            vuv = convertFloatToVector2(uv, arraysize);
+                            vuv = LoadUtil.ConvertFloatToVector2(uv, arraysize);
                             mesh.uv = vuv;
                         }
                         
-                        int[] indices = createIndices(arraysize);
+                        int[] indices = LoadUtil.CreateIndices(arraysize, MeshTopology.Triangles, reverse:false);
 
                         mesh.SetIndices(indices, MeshTopology.Triangles, 0);
                         mesh.RecalculateBounds();
@@ -187,32 +187,5 @@ public class LoadMqo {
         for(int i=0; i<size; i++) indices[i] = i;
 
         return indices;
-    }
-
-    private static Vector3[] convertFloatToVector3(float[] src, int size)
-    {
-        Vector3[] dst = new Vector3[size];
-
-        for (int i = 0; i < size; i++)
-        {
-            dst[i].x = src[i * 3 + 0];
-            dst[i].y = src[i * 3 + 1];
-            dst[i].z = -src[i * 3 + 2]; // 右手系 Y-up → 左手系 Y-up
-        }
-
-        return dst;
-    }
-
-        private static Vector2[] convertFloatToVector2(float[] src, int size)
-    {
-        Vector2[] dst = new Vector2[size];
-
-        for (int i = 0; i < size; i++)
-        {
-            dst[i].x = src[i * 2 + 0];
-            dst[i].y = src[i * 2 + 1];
-        }
-
-        return dst;
     }
 }
