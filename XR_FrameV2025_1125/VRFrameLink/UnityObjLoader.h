@@ -183,6 +183,23 @@ class uObjLoader
 
     bool getArrayInfo(int materialID, float* vertex, float* normal, float* uv);
 
+    bool getMaterialInfo(int materialID,
+      int* hasAmbient, float* ambient,
+      int* hasDiffuse, float* diffuse,
+      int* hasSpecular, float* specular,
+      int* hasTransparency, float* transparency,
+      int* hasShininess, int* shininess,
+      int* hasIllumination, int* illumination,
+      int* hasTexture, int* textureID,
+      int* hasSphereTexture, int* sphereTextureID,
+      int* hasCubeTexture, int* cubeTextureIDs);
+
+    bool getTextureBufferInfo(int textureID,
+      int* width, int* height,
+      int* depth, int* bufferSize);
+
+    bool getTextureBufferImage(int textureID, unsigned char* image, int bufferSize);
+
   /*--------------*/
   /* ”ñŒöŠJƒƒ“ƒo */
   /*--------------*/

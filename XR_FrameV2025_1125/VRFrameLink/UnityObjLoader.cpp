@@ -59,6 +59,8 @@ void uObjLoader::clear(void)
   debug_cnt = 0;                                 // デバッグ用カウンタ
   vf_cnt = 1;                                    // 頂点法線用インデックスカウンタ
 
+  cmtl.clear();
+
   v_v.clear();                                   // 頂点座標用 vector
   v_vn.clear();                                  // 法線座標 vector
   v_vt.clear();                                  // テクスチャ座標 vector
@@ -501,7 +503,7 @@ bool uObjLoader::writeTrans(string filenm)
 
 int uObjLoader::getMaterialCount()
 {
-    return cmtl.getCount();
+  return cmtl.getCount();
 }
 
 int uObjLoader::getArrayCount(int materialID)
@@ -593,4 +595,39 @@ bool uObjLoader::getArrayInfo(int materialID, float* vertex, float* normal, floa
   }
 
   return true;
+}
+
+bool uObjLoader::getMaterialInfo(int materialID,
+  int* hasAmbient, float* ambient,
+  int* hasDiffuse, float* diffuse,
+  int* hasSpecular, float* specular,
+  int* hasTransparency, float* transparency,
+  int* hasShininess, int* shininess,
+  int* hasIllumination, int* illumination,
+  int* hasTexture, int* textureID,
+  int* hasSphereTexture, int* sphereTextureID,
+  int* hasCubeTexture, int* cubeTextureIDs)
+{
+  return cmtl.getInfo(materialID,
+    hasAmbient, ambient,
+    hasDiffuse, diffuse,
+    hasSpecular, specular,
+    hasTransparency, transparency,
+    hasShininess, shininess,
+    hasIllumination, illumination,
+    hasTexture, textureID,
+    hasSphereTexture, sphereTextureID,
+    hasCubeTexture, cubeTextureIDs);
+}
+
+bool uObjLoader::getTextureBufferInfo(int textureID,
+  int* width, int* height,
+  int* channels, int* bufferSize)
+{
+  return cmtl.getTextureBufferInfo(textureID, width, height, channels, bufferSize);
+}
+
+bool uObjLoader::getTextureBufferImage(int textureID, unsigned char* image, int bufferSize)
+{
+  return cmtl.getTextureBufferImage(textureID, image, bufferSize);
 }

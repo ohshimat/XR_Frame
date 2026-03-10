@@ -2,6 +2,18 @@ using UnityEngine;
 
 public class LoadModel
 {
+    public static void Initialize()
+    {
+        LoadMqo.Initialize();
+        LoadObj.Initialize();
+    }
+
+    public static void CleanUp()
+    {
+        LoadMqo.CleanUp();
+        LoadObj.CleanUp();
+    }
+
     public static GameObject LoadModelFile(string filename, float scale, Material basemat)
     {
         if (filename.EndsWith(".mqo"))

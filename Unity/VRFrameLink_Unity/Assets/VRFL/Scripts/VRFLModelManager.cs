@@ -32,8 +32,8 @@ public class VRFLModelManager : MonoBehaviour
 
     public bool CreateModels(VRFLConfigFile config)
     {
-        LoadMqo.CleanUp();
-        LoadMqo.Initialize();
+        LoadModel.CleanUp();
+        LoadModel.Initialize();
 
         // ID:0 は Head
         VRFLModel head = new VRFLModel();

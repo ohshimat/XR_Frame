@@ -60,18 +60,38 @@ bool u_objMaterialInfo(int materialID,
     int* hasTransparency, float* transparency,
     int* hasShininess, int* shininess,
     int* hasIllumination, int* illumination,
-    int* hasTexture, int* textureID)
+    int* hasTexture, int* textureID,
+    int* hasSphereTexture, int* sphereTextureID,
+    int* hasCubeTexture, int* cubeTextureIDs)
 {
     if (uo_loader == NULL) return false;
 
-    // 現状、マテリアル情報は取得できないため、すべての値を「なし」として返す
-    *hasAmbient = 0;
-    *hasDiffuse = 0;
-    *hasSpecular = 0;
-    *hasTransparency = 0;
-    *hasShininess = 0;
-    *hasIllumination = 0;
-    *hasTexture = 0;
+    return uo_loader->getMaterialInfo(materialID,
+        hasAmbient, ambient,
+        hasDiffuse, diffuse,
+        hasSpecular, specular,
+        hasTransparency, transparency,
+        hasShininess, shininess,
+        hasIllumination, illumination,
+        hasTexture, textureID,
+        hasSphereTexture, sphereTextureID,
+        hasCubeTexture, cubeTextureIDs);
+}
 
-    return true;
+bool u_objTextureBufferInfo(int textureID,
+    int* width, int* height,
+    int* channels, int* bufferSize)
+{
+    if (uo_loader == NULL) return false;
+
+    return uo_loader->getTextureBufferInfo(textureID,
+        width, height,
+        channels, bufferSize);
+}
+
+bool u_objTextureBufferImage(int textureID, unsigned char* image, int bufferSize)
+{
+    if (uo_loader == NULL) return false;
+
+    return uo_loader->getTextureBufferImage(textureID, image, bufferSize);
 }

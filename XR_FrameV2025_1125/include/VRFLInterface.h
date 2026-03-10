@@ -95,6 +95,13 @@ namespace VRFL
 			int* hasTransparency, float* transparency,
 			int* hasShininess, int* shininess,
 			int* hasIllumination, int* illumination,
-			int* hasTexture, int* textureID);
+			int* hasTexture, int* textureID,
+            int* hasSphereTexture, int* sphereTextureID,
+            int* hasCubeTexture, int* cubeTextureIDs);
+
+		VRFL_DECLSPEC bool OBJTextureBufferInfo(int textureID,
+			int* width, int* height,
+			int* channels, int* bufferSize);
+		VRFL_DECLSPEC bool OBJTextureBufferImage(int textureID, unsigned char* image, int bufferSize);
 	}
 }

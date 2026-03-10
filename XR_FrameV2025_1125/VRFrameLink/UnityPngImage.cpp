@@ -35,7 +35,7 @@ int readPngImage( const char *fname,
     }
 
     // ファイル読込み
-    if((fp = fopen(fname, "rb")) < 0)
+    if((fp = fopen(fname, "rb")) == NULL)
     {
       return 1;
     }
@@ -110,7 +110,7 @@ int writePngImage( int width
     png_infop       info_ptr;
 
     // 出力ファイルオープン
-    if((fp = fopen(file_name, "wb")) < 0)
+    if((fp = fopen(file_name, "wb")) == NULL)
     {
       return 1;
     }

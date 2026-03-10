@@ -59,11 +59,14 @@ struct St_uo_mtl_data
   int    tNo;                                    // テクスチャNo
 
   bool  isTexture;                               // テクスチャ設定の有無(true=有, false=無)
+  int    textureNo;                              // テクスチャマッピング用テクスチャNo
 
   bool  isSphereTexture;                         // スフィアマッピング用テクスチャ設定の有無(true=有, false=無)
+  int    sphereTextureNo;                        // スフィアマッピング用テクスチャNo
   string  texturefnm;                            // テクスチャファイル名(テクスチャマッピング、スフィアマッピング用)
   int    textureCnt;                             // キューブマッピング用カウンタ
   int    textureIndex[6];                        // キューブマッピング用インデックス
+  int    cubeTextureNo[6];                       // キューブマッピング用テクスチャNo
 
   vector <string> v_texturefnm;                  // テクスチャファイル名(キューブマッピング用)
   bool  isCubeTexture;                           // キューブマッピング用テクスチャ設定の有無(true=有, false=無)
@@ -107,7 +110,9 @@ struct St_uo_mtl_data
     tNo = 0;                                     // テクスチャNo
 
     isTexture = false;                           // テクスチャ設定の有無
+    textureNo = -1;                              // テクスチャマッピング用テクスチャNo
     isSphereTexture = false;                     // スフィアマッピング用テクスチャ設定の有無
+    sphereTextureNo = -1;                        // スフィアマッピング用テクスチャNo
 
     texturefnm.clear();                          // テクスチャファイル名(テクスチャマッピング、スフィアマッピング用)
 
@@ -120,8 +125,37 @@ struct St_uo_mtl_data
     textureIndex[4] = 4;
     textureIndex[5] = 0;
 
+    cubeTextureNo[0] = -1;
+    cubeTextureNo[1] = -1;
+    cubeTextureNo[2] = -1;
+    cubeTextureNo[3] = -1;
+    cubeTextureNo[4] = -1;
+    cubeTextureNo[5] = -1;
+
     v_texturefnm.clear();                        // テクスチャファイル名(キューブマッピング用)
     isCubeTexture = false;                       // キューブマッピング用テクスチャ設定の有無
+  }
+};
+
+struct St_uo_texture_pool_data
+{
+  string texturefnm;                             // テクスチャファイル名
+  int width;                                     // 横幅
+  int height;                                    // 縦幅
+  int channels;                                     // チャンネル数(3/4)
+  int bits;                                      // 1チャンネルあたりビット数(8/16)
+  int imageSize;                                 // バッファサイズ(byte)
+  unsigned char* image;                          // テクスチャ画像バッファ
+
+  void init(void)
+  {
+    texturefnm.clear();
+    width = 0;
+    height = 0;
+    channels = 0;
+    bits = 0;
+    imageSize = 0;
+    image = NULL;
   }
 };
 
@@ -177,6 +211,23 @@ public:
 
   string getName(int index);
 
+  bool getInfo(int index,
+    int* hasAmbient, float* ambient,
+    int* hasDiffuse, float* diffuse,
+    int* hasSpecular, float* specular,
+    int* hasTransparency, float* transparency,
+    int* hasShininess, int* shininess,
+    int* hasIllumination, int* illumination,
+    int* hasTexture, int* textureID,
+    int* hasSphereTexture, int* sphereTextureID,
+    int* hasCubeTexture, int* cubeTextureIDs);
+
+  bool getTextureBufferInfo(int textureID,
+    int* width, int* height,
+    int* channels, int* bufferSize);
+
+  bool getTextureBufferImage(int textureID, unsigned char* image, int bufferSize);
+
 /*--------------*/
 /* 非公開メンバ */
 /*--------------*/
@@ -190,6 +241,9 @@ private:
 
   // テクスチャ名(ID)保持領域
   vector <int> v_tNo;
+
+  // テクスチャバッファ保持領域
+  vector <St_uo_texture_pool_data> v_texturePool;
 
   //*******************************************************************
   /*!
@@ -210,7 +264,7 @@ private:
    *  @date  2008/12/1 ... 新規作成
    */
   //********************************************************************
-  bool loadTexture(const St_uo_mtl_data *pval);
+  bool loadTexture(St_uo_mtl_data *pval);
 
   //*******************************************************************
   /*!
@@ -219,7 +273,7 @@ private:
    *  @date  2008/12/1 ... 新規作成
    */
   //********************************************************************
-  bool loadSphereTexture(const St_uo_mtl_data *pval);
+  bool loadSphereTexture(St_uo_mtl_data *pval);
 
   //*******************************************************************
   /*!
@@ -228,7 +282,11 @@ private:
    *  @date  2008/12/1 ... 新規作成
    */
   //********************************************************************
-  bool loadCubeTexture(const St_uo_mtl_data *pval);
+  bool loadCubeTexture(St_uo_mtl_data *pval);
+
+  int registerTextureBuffer(const string& texturefnm);
+
+  void clearTexturePool(void);
 };
 
 #endif

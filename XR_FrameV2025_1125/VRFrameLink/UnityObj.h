@@ -16,4 +16,11 @@ bool u_objMaterialInfo(int materialID,
     int* hasTransparency, float* transparency,
     int* hasShininess, int* shininess,
     int* hasIllumination, int* illumination,
-    int* hasTexture, int* textureID);
+    int* hasTexture, int* textureID,
+    int* hasSphereTexture, int* sphereTextureID,
+    int* hasCubeTexture, int* cubeTextureIDs);
+
+bool u_objTextureBufferInfo(int textureID,
+    int* width, int* height,
+    int* channels, int* bufferSize);
+bool u_objTextureBufferImage(int textureID, unsigned char* image, int bufferSize);

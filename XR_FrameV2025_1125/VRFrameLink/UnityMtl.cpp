@@ -28,6 +28,7 @@ uMtl::uMtl(void)
 //-----------------------------------------------------------------//
 uMtl::~uMtl(void)
 {
+  clear();
 }
 
 //-----------------------------------------------------------------//
@@ -37,7 +38,6 @@ bool uMtl::loadMtl(string mtlfnm)
 {
   St_uo_mtl_data *pst;                              // mtlデータ構造体一時領域
   int token_cnt = 0;                             // トークン用カウンタ
-  int tNo_temp;                               // テクスチャ名(ID)一時領域
   char line_buff[255];                           // レコード読込み用バッファ
   char bufftemp[255];                            // 一時領域バッファ
   char *psrc;                                    // 文字列検索用ポインタ
@@ -107,8 +107,7 @@ bool uMtl::loadMtl(string mtlfnm)
       texpath.append(psrc + 7);                  // テクスチャ名を追加
       pst->texturefnm = texpath;                 // テクスチャファイル名設定
 
-      //glGenTextures(1, &tNo_temp);               // テクスチャ名(ID)取得
-      pst->tNo = tNo_temp;                       // テクスチャ名(ID)設定
+      // テクスチャIDはロード時にバッファプール登録で設定する
 
       // テクスチャファイルロード
       if(!loadTexture(pst))
@@ -126,8 +125,7 @@ bool uMtl::loadMtl(string mtlfnm)
       texpath.append(psrc + 7);                  // テクスチャ名を追加
       pst->texturefnm = texpath;                 // テクスチャファイル名設定
 
-      //glGenTextures(1, &tNo_temp);               // テクスチャ名(ID)取得
-      pst->tNo = tNo_temp;                       // テクスチャ名(ID)設定
+      // テクスチャIDはロード時にバッファプール登録で設定する
 
       // テクスチャファイルロード
       loadSphereTexture(pst);
@@ -344,6 +342,74 @@ void uMtl::clear(void)
 
   // テクスチャ名(ID)保持領域クリア
   v_tNo.clear();
+
+  // テクスチャバッファ保持領域クリア
+  clearTexturePool();
+}
+
+void uMtl::clearTexturePool(void)
+{
+  for(unsigned int i = 0; i < v_texturePool.size(); i++)
+  {
+    if(v_texturePool[i].image != NULL)
+    {
+      free(v_texturePool[i].image);
+      v_texturePool[i].image = NULL;
+    }
+  }
+
+  v_texturePool.clear();
+}
+
+int uMtl::registerTextureBuffer(const string& texturefnm)
+{
+  if(texturefnm.empty())
+  {
+    return -1;
+  }
+
+  for(unsigned int i = 0; i < v_texturePool.size(); i++)
+  {
+    if(strcmp(v_texturePool[i].texturefnm.c_str(), texturefnm.c_str()) == 0)
+    {
+      return (int)i;
+    }
+  }
+
+  int ret;
+  int width;
+  int height;
+  int depth;
+  int bits;
+  unsigned char* image;
+
+  ret = readPngImage(texturefnm.c_str(), &width, &height, &depth, &bits, &image);
+  if(ret == 1)
+  {
+    cout << "テクスチャファイルのオープンエラーが発生しました。 file = "
+         << texturefnm.c_str() << endl;
+    return -1;
+  }
+  else if(ret == 2)
+  {
+    cout << "テクスチャファイルの読込みエラーが発生しました。 file = "
+         << texturefnm.c_str() << endl;
+    return -1;
+  }
+
+  St_uo_texture_pool_data texPoolData;
+  texPoolData.init();
+  texPoolData.texturefnm = texturefnm;
+  texPoolData.width = width;
+  texPoolData.height = height;
+  texPoolData.channels = depth;
+  texPoolData.bits = bits;
+  // readPngImage() の depth は実データ上の1pixelあたりバイト数
+  texPoolData.imageSize = width * height * depth;
+  texPoolData.image = image;
+
+  v_texturePool.push_back(texPoolData);
+  return (int)v_texturePool.size() - 1;
 }
 
 //-----------------------------------------------------------------//
@@ -396,29 +462,20 @@ void uMtl::show(const St_uo_mtl_data &val, ostream &os)
 //-----------------------------------------------------------------//
 // テクスチャのロードを行います。                                  //
 //-----------------------------------------------------------------//
-bool uMtl::loadTexture(const St_uo_mtl_data *pval)
+bool uMtl::loadTexture(St_uo_mtl_data *pval)
 {
-  int ret;                                       // 戻り値
-  int width;                                     // イメージの横幅
-  int height;                                    // イメージの高さ
-  int depth;                                     // イメージの深度
-  int bits;                                      // イメージのビット値(8/16)
-  unsigned char *fimage;                         // イメージデータ
+  if(pval == NULL)
+  {
+    return false;
+  }
 
-  // テクスチャファイルの読込み
-  ret = readPngImage(pval->texturefnm.c_str(), &width, &height, &depth, &bits, &fimage);
-  if(ret == 1)
+  int textureID = registerTextureBuffer(pval->texturefnm);
+  if(textureID < 0)
   {
-    cout << "テクスチャファイルのオープンエラーが発生しました。 file = "
-         << pval->texturefnm.c_str() << endl;
     return false;
   }
-  else if(ret == 2)
-  {
-    cout << "テクスチャファイルの読込みエラーが発生しました。 file = "
-         << pval->texturefnm.c_str() << endl;
-    return false;
-  }
+  pval->textureNo = textureID;
+  pval->tNo = textureID;
 
   //glEnable(GL_TEXTURE_2D);                       // テクスチャマッピング有効化
 
@@ -434,36 +491,26 @@ bool uMtl::loadTexture(const St_uo_mtl_data *pval)
 
   //glDisable(GL_TEXTURE_2D);                      // テクスチャマッピング無効化
 
-  free(fimage);                                  // イメージ領域の開放
   return true;
 }
 
 //-----------------------------------------------------------------//
 // スフィアマッピング用テクスチャのロードを行います。              //
 //-----------------------------------------------------------------//
-bool uMtl::loadSphereTexture(const St_uo_mtl_data *pval)
+bool uMtl::loadSphereTexture(St_uo_mtl_data *pval)
 {
-  int ret;                                       // 戻り値
-  int width;                                     // イメージの横幅
-  int height;                                    // イメージの高さ
-  int depth;                                     // イメージの深度
-  int bits;                                      // イメージのビット値(8/16)
-  unsigned char *fimage;                         // イメージデータ
+  if(pval == NULL)
+  {
+    return false;
+  }
 
-  // テクスチャファイルの読込み
-  ret = readPngImage(pval->texturefnm.c_str(), &width, &height, &depth, &bits, &fimage);
-  if(ret == 1)
+  int textureID = registerTextureBuffer(pval->texturefnm);
+  if(textureID < 0)
   {
-    cout << "テクスチャファイルのオープンエラーが発生しました。 file = "
-         << pval->texturefnm.c_str() << endl;
     return false;
   }
-  else if(ret == 2)
-  {
-    cout << "テクスチャファイルの読込みエラーが発生しました。 file = "
-         << pval->texturefnm.c_str() << endl;
-    return false;
-  }
+  pval->sphereTextureNo = textureID;
+  pval->tNo = textureID;
 
 //  glBindTexture(GL_TEXTURE_2D, pval->tNo);       // テクスチャのバインド
 //#ifdef _WIN32
@@ -475,8 +522,6 @@ bool uMtl::loadSphereTexture(const St_uo_mtl_data *pval)
   // テクスチャの割り当て
   //glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0
   //      ,GL_RGB, GL_UNSIGNED_BYTE, fimage);
-  delete[] fimage;
-
 //#ifdef _WIN32
 //  glActiveTexture(GL_TEXTURE0);
 //#endif
@@ -487,14 +532,12 @@ bool uMtl::loadSphereTexture(const St_uo_mtl_data *pval)
 //-----------------------------------------------------------------//
 // キューブマッピング用テクスチャのロードを行います。              //
 //-----------------------------------------------------------------//
-bool uMtl::loadCubeTexture(const St_uo_mtl_data *pval)
+bool uMtl::loadCubeTexture(St_uo_mtl_data *pval)
 {
-  int ret;                                       // 戻り値
-  int width;                                     // イメージの横幅
-  int height;                                    // イメージの高さ
-  int depth;                                     // イメージの深度
-  int bits;                                      // イメージのビット値(8/16)
-  unsigned char *fimage;                         // イメージデータ
+  if(pval == NULL)
+  {
+    return false;
+  }
 
   // テクスチャのターゲット名
   //int target[] =
@@ -516,20 +559,17 @@ bool uMtl::loadCubeTexture(const St_uo_mtl_data *pval)
   // テクスチャ数分(6つ)ループ
   for(int i = 0; i < pval->textureCnt; i++)
   {
-    // テクスチャファイルの読込み
-    ret = readPngImage(pval->v_texturefnm[pval->textureIndex[i]].c_str(), &width, &height, &depth, &bits, &fimage);
-    if(ret == 1)
+    int textureID = registerTextureBuffer(pval->v_texturefnm[pval->textureIndex[i]]);
+    if(textureID < 0)
     {
-      cout << "テクスチャファイルのオープンエラーが発生しました。 file = "
-           << pval->v_texturefnm[pval->textureIndex[i]].c_str() << endl;
       return false;
     }
-    else if(ret == 2)
+
+    if(i == 0)
     {
-      cout << "テクスチャファイルの読込みエラーが発生しました。 file = "
-           << pval->v_texturefnm[pval->textureIndex[i]].c_str() << endl;
-      return false;
+      pval->tNo = textureID;
     }
+    pval->cubeTextureNo[i] = textureID;
     // テクスチャ画像はバイト単位に詰め込まれている
     //glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 
@@ -537,7 +577,6 @@ bool uMtl::loadCubeTexture(const St_uo_mtl_data *pval)
     //glTexImage2D(target[i], 0, GL_RGB, width, height, 0
     //      ,GL_RGB, GL_UNSIGNED_BYTE, fimage);
 
-    delete[] fimage;
   }
 
 //#ifdef _WIN32
@@ -560,4 +599,144 @@ string uMtl::getName(int index)
   }
 
   return v_mtl[index].mtlnm;
+}
+
+bool uMtl::getInfo(int index,
+  int* hasAmbient, float* ambient,
+  int* hasDiffuse, float* diffuse,
+  int* hasSpecular, float* specular,
+  int* hasTransparency, float* transparency,
+  int* hasShininess, int* shininess,
+  int* hasIllumination, int* illumination,
+  int* hasTexture, int* textureID,
+  int* hasSphereTexture, int* sphereTextureID,
+  int* hasCubeTexture, int* cubeTextureIDs)
+{
+  if(index < 0 || (int)v_mtl.size() <= index)
+  {
+    return false;
+  }
+
+  const St_uo_mtl_data& mtl = v_mtl[index];
+
+  if(hasAmbient != NULL) *hasAmbient = mtl.isAmbient ? 1 : 0;
+  if(ambient != NULL)
+  {
+    ambient[0] = mtl.ambient[0];
+    ambient[1] = mtl.ambient[1];
+    ambient[2] = mtl.ambient[2];
+  }
+
+  if(hasDiffuse != NULL) *hasDiffuse = mtl.isDiffuse ? 1 : 0;
+  if(diffuse != NULL)
+  {
+    diffuse[0] = mtl.diffuse[0];
+    diffuse[1] = mtl.diffuse[1];
+    diffuse[2] = mtl.diffuse[2];
+  }
+
+  if(hasSpecular != NULL) *hasSpecular = mtl.isSpecular ? 1 : 0;
+  if(specular != NULL)
+  {
+    specular[0] = mtl.specular[0];
+    specular[1] = mtl.specular[1];
+    specular[2] = mtl.specular[2];
+  }
+
+  if(hasTransparency != NULL) *hasTransparency = mtl.isTransparency ? 1 : 0;
+  if(transparency != NULL) *transparency = mtl.transparency;
+
+  if(hasShininess != NULL) *hasShininess = mtl.isShininess ? 1 : 0;
+  if(shininess != NULL) *shininess = mtl.shininess;
+
+  if(hasIllumination != NULL) *hasIllumination = mtl.isIllumination ? 1 : 0;
+  if(illumination != NULL) *illumination = mtl.illumination;
+
+  if(hasTexture != NULL)
+  {
+    *hasTexture = mtl.isTexture ? 1 : 0;
+  }
+  if(textureID != NULL)
+  {
+    if(mtl.isTexture)
+    {
+      *textureID = mtl.textureNo;
+    }
+    else
+    {
+      *textureID = -1;
+    }
+  }
+
+  if(hasSphereTexture != NULL) *hasSphereTexture = mtl.isSphereTexture ? 1 : 0;
+  if(sphereTextureID != NULL)
+  {
+    if(mtl.isSphereTexture)
+    {
+      *sphereTextureID = mtl.sphereTextureNo;
+    }
+    else
+    {
+      *sphereTextureID = -1;
+    }
+  }
+
+  if(hasCubeTexture != NULL) *hasCubeTexture = mtl.isCubeTexture ? 1 : 0;
+  if(cubeTextureIDs != NULL)
+  {
+    for(int i = 0; i < 6; i++)
+    {
+      if(mtl.isCubeTexture)
+      {
+        cubeTextureIDs[i] = mtl.cubeTextureNo[i];
+      }
+      else
+      {
+        cubeTextureIDs[i] = -1;
+      }
+    }
+  }
+
+  return true;
+}
+
+bool uMtl::getTextureBufferInfo(int textureID,
+  int* width, int* height,
+  int* channels, int* bufferSize)
+{
+  if(textureID < 0 || (int)v_texturePool.size() <= textureID)
+  {
+    return false;
+  }
+
+  if(width != NULL) *width = v_texturePool[textureID].width;
+  if(height != NULL) *height = v_texturePool[textureID].height;
+  if(channels != NULL) *channels = v_texturePool[textureID].channels;
+  if(bufferSize != NULL) *bufferSize = v_texturePool[textureID].imageSize;
+
+  return true;
+}
+
+bool uMtl::getTextureBufferImage(int textureID, unsigned char* image, int bufferSize)
+{
+  if(textureID < 0 || (int)v_texturePool.size() <= textureID)
+  {
+    return false;
+  }
+
+  if(image == NULL)
+  {
+    return false;
+  }
+
+  if(bufferSize < v_texturePool[textureID].imageSize)
+  {
+    return false;
+  }
+
+  memcpy((void*)image,
+    (const void*)v_texturePool[textureID].image,
+    sizeof(unsigned char) * v_texturePool[textureID].imageSize);
+
+  return true;
 }
