@@ -3,6 +3,7 @@
 #include "UnityObjLoader.h"
 
 static objloader::uObjLoader* uo_loader = NULL;
+static double uo_scale = 1.0;
 
 void u_objInit()
 {
@@ -18,8 +19,13 @@ bool u_objCreateModel(char* filename, double scale)
 {
     if (uo_loader != NULL) u_objDeleteModel();
 
+    uo_scale = scale;
     uo_loader = new objloader::uObjLoader();
-    if (!uo_loader->read(filename)) return false;
+    if (!uo_loader->read(filename))
+    {
+        u_objDeleteModel();
+        return false;
+    }
 
     return true;
 }
@@ -31,6 +37,8 @@ void u_objDeleteModel()
         delete uo_loader;
         uo_loader = NULL;
     }
+
+    uo_scale = 1.0;
 }
 
 int u_objMaterialCount()
@@ -50,7 +58,22 @@ bool u_objArrayInfo(int materialID, float* vertex, float* normal, float* uv)
 {
     if (uo_loader == NULL) return false;
 
-    return uo_loader->getArrayInfo(materialID, vertex, normal, uv);
+    if (!uo_loader->getArrayInfo(materialID, vertex, normal, uv)) return false;
+
+    if (vertex != NULL && uo_scale != 1.0)
+    {
+        const int arrayCount = uo_loader->getArrayCount(materialID);
+        if (arrayCount > 0)
+        {
+            const float scale = (float)uo_scale;
+            for (int i = 0; i < arrayCount * 3; i++)
+            {
+                vertex[i] *= scale;
+            }
+        }
+    }
+
+    return true;
 }
 
 bool u_objMaterialInfo(int materialID,
