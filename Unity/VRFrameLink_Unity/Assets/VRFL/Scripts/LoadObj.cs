@@ -152,6 +152,7 @@ public class LoadObj
             MeshRenderer mr = meshobj.AddComponent<MeshRenderer>();
             Mesh mesh = mf.mesh;
             if (mesh == null) mesh = new Mesh();
+            mesh.indexFormat = arraysize > 65535 ? IndexFormat.UInt32 : IndexFormat.UInt16;
 
             Vector3[] vvec, vnorm;
             Vector2[] vuv;
