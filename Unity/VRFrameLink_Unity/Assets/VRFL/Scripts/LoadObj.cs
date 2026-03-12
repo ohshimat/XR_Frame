@@ -165,9 +165,8 @@ public class LoadObj
             vuv = LoadUtil.ConvertFloatToVector2(uv, arraysize);
             mesh.uv = vuv;
 
-            // TODO : Triangle か Quad のチェックが必要
-            int[] indices = LoadUtil.CreateIndices(arraysize, MeshTopology.Quads, reverse: true);
-            mesh.SetIndices(indices, MeshTopology.Quads, 0);
+            int[] indices = LoadUtil.CreateIndices(arraysize, MeshTopology.Triangles, reverse: true);
+            mesh.SetIndices(indices, MeshTopology.Triangles, 0);
             mesh.RecalculateBounds();
 
             mr.material = mat;

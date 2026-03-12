@@ -302,7 +302,39 @@ bool uObjLoader::readTrans(string objfnm)
       objData_temp.setGroupName(group_buff);     // グループ名設定
       objData_temp.setMtlName(mtl_buff);         // マテリアル定義名設定
 
-      objData.push_back(objData_temp);           // OBJ基本情報に追加
+      // Quad/Polygonを三角形に分割（Fan triangulation）
+      int vertCount = (int)objData_temp.getIndexSize();
+      if(vertCount <= 3)
+      {
+        objData.push_back(objData_temp);         // 三角形以下はそのまま追加
+      }
+      else
+      {
+        // 頂点0を基点にFan triangulationで三角形へ分割
+        for(int ti = 1; ti <= vertCount - 2; ti++)
+        {
+          uObjData triData;
+          triData.setGroupNo(groupNoCnt);
+          triData.setGroupName(group_buff);
+          triData.setMtlName(mtl_buff);
+          triData.setNormalFlg(objData_temp.getNormalFlg());
+          triData.setTextureFlg(objData_temp.getTextureFlg());
+
+          if(objData_temp.getNormalFlg())
+          {
+            triData.setFaceNormal(objData_temp.getFaceNormal());
+          }
+
+          int triIdx[3] = { 0, ti, ti + 1 };
+          for(int k = 0; k < 3; k++)
+          {
+            triData.addIndex(objData_temp.getIndex(triIdx[k]));
+            triData.addObjDetailData(*objData_temp.getObjDetailData(triIdx[k]));
+          }
+
+          objData.push_back(triData);
+        }
+      }
       objData_temp.clear();                      // OBJデータの初期化
     }
     // グルーピング定義
