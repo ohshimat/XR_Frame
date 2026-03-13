@@ -1,5 +1,3 @@
 1,handR,../../XR_FrameV2025_1125/models/handR.mqo,0.12,dummy1
 2,handL,../../XR_FrameV2025_1125/models/handL.mqo,0.12,dummy2
-3,box,../../XR_FrameV2025_1125/objmodel/iltj/box.obj,1.0,dummy3
-4,heart,../../XR_FrameV2025_1125/objmodel/heart/test_0.obj,0.001,dummy4
-5,kuma,../../XR_FrameV2025_1125/objmodel/kuma/kuma.obj,0.01,dummy5
+3,heart,../../XR_FrameV2025_1125/objmodel/heart/test_0.obj,0.001,dummy3

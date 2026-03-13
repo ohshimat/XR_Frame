@@ -341,6 +341,7 @@ void InitScene(void)
 	simdata.head.id = 0;							// Head(カメラ)のオブジェクトには "0" を振る(必須)
 	simdata.handR.id = vrconfig::GetID("handR");	// csvファイルからID取得
 	simdata.handL.id = vrconfig::GetID("handL");	// csvファイルからID取得
+	simdata.sphere.id = vrconfig::GetID("heart");	// csvファイルからID取得
 	simdata.handR.offrot.yaw = 90;					// モデル調整の為のオフセット回転
 	simdata.handL.offrot.yaw = 90;					// モデル調整の為のオフセット回転
 
@@ -585,8 +586,10 @@ void UpdateScene(void)
 	VRFL::Send((void**)&pdata, 1); // handL情報送信
 	pdata = &simdata.handR;
 	VRFL::Send((void**)&pdata, 1); // handR情報送信
+    pdata = &simdata.sphere;
+    VRFL::Send((void**)&pdata, 1); // sphere情報送信
 
-	return;
+    return;
 }
 ////////
 void TermScene(void)
