@@ -11,7 +11,7 @@ public class VRFLConfigData
     public float Scale;
     public string NodeName;
     public string FileName;
-    public string Reserved;
+    public Dictionary<string, string> Attributes = new Dictionary<string, string>();
 }
 
 public class VRFLConfigFile
@@ -27,7 +27,13 @@ public class VRFLConfigFile
 
     [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern bool GetConfig(int index, ref int id, ref float scale,
-                                         StringBuilder node, StringBuilder file, StringBuilder reserve, int stringlen);
+                                         StringBuilder node, StringBuilder file, int stringlen);
+
+    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    private static extern int GetConfigAttributeCount(int index);
+
+    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    private static extern bool GetConfigAttribute(int index, int attrIndex, StringBuilder key, StringBuilder val, int stringlen);
 
     [HideInInspector]
     public List<VRFLConfigData> m_config = new List<VRFLConfigData>();
@@ -48,16 +54,25 @@ public class VRFLConfigFile
         {
             StringBuilder sbn = new StringBuilder(len);
             StringBuilder sbf = new StringBuilder(len);
-            StringBuilder sbr = new StringBuilder(len);
 
-            if(GetConfig(i, ref id, ref scale, sbn, sbf, sbr, len))
+            if(GetConfig(i, ref id, ref scale, sbn, sbf, len))
             {
                 VRFLConfigData cd = new VRFLConfigData();
                 cd.ID = id;
                 cd.Scale = scale;
                 cd.NodeName = sbn.ToString();
                 cd.FileName = sbf.ToString();
-                cd.Reserved = sbr.ToString();
+
+                int attrCount = GetConfigAttributeCount(i);
+                for (int j = 0; j < attrCount; j++)
+                {
+                    StringBuilder key = new StringBuilder(len);
+                    StringBuilder val = new StringBuilder(len);
+                    if (GetConfigAttribute(i, j, key, val, len))
+                    {
+                        cd.Attributes[key.ToString()] = val.ToString();
+                    }
+                }
 
                 m_config.Add(cd);
             }

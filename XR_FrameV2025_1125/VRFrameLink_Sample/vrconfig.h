@@ -8,7 +8,7 @@ struct vrconfigdata
 	float scale;
 	std::string node;
 	std::string file;
-	std::string reserve;
+	std::vector<std::pair<std::string, std::string>> attributes;
 };
 
 class vrconfig
@@ -23,4 +23,5 @@ public:
 	static const char* GetFileName(const char* nodename);
 	static const char* GetFileName(int id);
 	static float GetScale(const char* nodename);
+	static const std::vector<std::pair<std::string, std::string>>& GetAttributes(const char* nodename);
 };

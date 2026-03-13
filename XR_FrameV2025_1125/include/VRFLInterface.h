@@ -31,8 +31,9 @@ namespace VRFL
 		VRFL_DECLSPEC bool LoadConfig(const char* filename, const char* relativebase); // MultiByte
 		VRFL_DECLSPEC int  GetConfigCount();
 		VRFL_DECLSPEC int  GetMaxStringLength();
-		VRFL_DECLSPEC bool GetConfig(int index, int* id, float* scale, char* node, char* file, char* reserve, int charsize);
-
+		VRFL_DECLSPEC bool GetConfig(int index, int* id, float* scale, char* node, char* file, int charsize);
+		VRFL_DECLSPEC int GetConfigAttributeCount(int index);
+		VRFL_DECLSPEC bool GetConfigAttribute(int index, int attrIndex, char *attrName, char *attrValue, int charsize);
 
 		//---------------------------------------------------------------------------
 		// For Sim
@@ -96,8 +97,8 @@ namespace VRFL
 			int* hasShininess, int* shininess,
 			int* hasIllumination, int* illumination,
 			int* hasTexture, int* textureID,
-            int* hasSphereTexture, int* sphereTextureID,
-            int* hasCubeTexture, int* cubeTextureIDs);
+			int* hasSphereTexture, int* sphereTextureID,
+			int* hasCubeTexture, int* cubeTextureIDs);
 
 		VRFL_DECLSPEC bool OBJTextureBufferInfo(int textureID,
 			int* width, int* height,

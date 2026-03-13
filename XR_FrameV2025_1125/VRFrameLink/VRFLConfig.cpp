@@ -64,7 +64,7 @@ namespace VRFL
 	{
 		return _maxStringSize;
 	}
-	bool VRFLConfig::GetConfig(int index, int* id, float* scale, char* node, char* file, char* reserve, int charsize)
+	bool VRFLConfig::GetConfig(int index, int* id, float* scale, char* node, char* file, int charsize)
 	{
 		if ((int)_infolist.size() <= index) return false;
 		if (charsize <= 0) return false;
@@ -82,10 +82,35 @@ namespace VRFL
 			file[0] = 0;
 			if (!_infolist[index].FileName.empty()) sprintf_s(file, charsize, "%s", _infolist[index].FileName.c_str());
 		}
-		if (reserve != NULL)
+
+		return true;
+	}
+
+	int VRFLConfig::GetConfigAttributeCount(int index)
+	{
+		if ((int)_infolist.size() <= index) return -1;
+
+		return (int)_infolist[index].Attributes.size();
+	}
+
+	bool VRFLConfig::GetConfigAttribute(int index, int attrIndex, char *attrName, char *attrValue, int charsize)
+	{
+		if ((int)_infolist.size() <= index) return false;
+		if (charsize <= 0) return false;
+
+		if (_infolist[index].Attributes.empty()) return false;
+		if (attrIndex < 0 || (int)_infolist[index].Attributes.size() <= attrIndex) return false;
+
+		if (attrName != NULL)
 		{
-			reserve[0] = 0;
-			if (!_infolist[index].Reserved.empty()) sprintf_s(reserve, charsize, "%s", _infolist[index].Reserved.c_str());
+			attrName[0] = 0;
+			sprintf_s(attrName, charsize, "%s", _infolist[index].Attributes[attrIndex].first.c_str());
+		}
+
+		if (attrValue != NULL)
+		{
+			attrValue[0] = 0;
+			sprintf_s(attrValue, charsize, "%s", _infolist[index].Attributes[attrIndex].second.c_str());
 		}
 
 		return true;
@@ -113,12 +138,27 @@ namespace VRFL
 
 			if (tokens.size() >= 5)
 			{
-				info.Reserved = tokens[4];
-				if ((int)info.Reserved.length() >= _maxStringSize) _maxStringSize = (int)info.Reserved.length() + 1;
+				parseAttributes(tokens[4], &info);
 			}
 
 		}
 
 		_infolist.push_back(info);
+	}
+
+	void VRFLConfig::parseAttributes(std::string attrs, CSVInfo* info)
+	{
+		std::vector<std::string> attrtokens = SplitString(attrs, ';');
+
+		for (int i = 0; i < (int)attrtokens.size(); i++)
+		{
+			std::vector<std::string> kv = SplitString(attrtokens[i], '=');
+			if (kv.size() == 2)
+			{
+				info->Attributes.push_back(std::make_pair(kv[0], kv[1]));
+				if ((int)kv[0].length() >= _maxStringSize) _maxStringSize = (int)kv[0].length() + 1;
+				if ((int)kv[1].length() >= _maxStringSize) _maxStringSize = (int)kv[1].length() + 1;
+			}
+		}
 	}
 }

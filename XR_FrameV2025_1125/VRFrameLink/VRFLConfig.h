@@ -12,7 +12,7 @@ namespace VRFL
 		float Scale;
 		std::string NodeName;
 		std::string FileName;
-		std::string Reserved;
+		std::vector<std::pair<std::string, std::string>> Attributes;
 	};
 
 	class VRFLConfig
@@ -26,13 +26,16 @@ namespace VRFL
 		~VRFLConfig();
 
 		static void parseLine(std::string line, const char* relativebase);
+		static void parseAttributes(std::string attrs, CSVInfo* info);
 
 	public:
 		static bool LoadCSV(const char* fname, const char* relativebase);
 
 		static int  GetConfigCount();
 		static int  GetMaxStringLength();
-		static bool GetConfig(int index, int* id, float* scale, char* node, char* file, char* reserve, int charsize);
+		static bool GetConfig(int index, int* id, float* scale, char* node, char* file, int charsize);
+		static int  GetConfigAttributeCount(int index);
+		static bool GetConfigAttribute(int index, int attrIndex, char *attrName, char *attrValue, int charsize);
 	};
 }
 

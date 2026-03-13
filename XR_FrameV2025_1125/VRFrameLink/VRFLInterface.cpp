@@ -39,11 +39,18 @@ namespace VRFL
 	{
 		return VRFLConfig::GetMaxStringLength();
 	}
-	bool GetConfig(int index, int* id, float* scale, char* node, char* file, char* reserve, int charsize)
+	bool GetConfig(int index, int* id, float* scale, char* node, char* file, int charsize)
 	{
-		return VRFLConfig::GetConfig(index, id, scale, node, file, reserve, charsize);
+		return VRFLConfig::GetConfig(index, id, scale, node, file, charsize);
 	}
-
+	int GetConfigAttributeCount(int index)
+	{
+		return VRFLConfig::GetConfigAttributeCount(index);
+	}
+	bool GetConfigAttribute(int index, int attrIndex, char *attrName, char *attrValue, int charsize)
+	{
+		return VRFLConfig::GetConfigAttribute(index, attrIndex, attrName, attrValue, charsize);
+	}
 
 
 	// Data Transfer
@@ -113,7 +120,7 @@ namespace VRFL
 		return u_mqoTextureImage(textureID, image);
 	}
 
-    // OBJ (for Unity)
+	// OBJ (for Unity)
 	void OBJInit()
 	{
 
@@ -125,26 +132,26 @@ namespace VRFL
 
 	bool OBJCreateModel(char* filename, double scale)
 	{
-        return u_objCreateModel(filename, scale);
+		return u_objCreateModel(filename, scale);
 	}
 	void OBJDeleteModel()
 	{
 		u_objDeleteModel();
 	}
 
-    int OBJMaterialCount()
-    {
-        return u_objMaterialCount();
-    }
+	int OBJMaterialCount()
+	{
+		return u_objMaterialCount();
+	}
 
 	int OBJArrayCount(int materialID)
 	{
-        return u_objArrayCount(materialID);
+		return u_objArrayCount(materialID);
 	}
 	
 	bool OBJArrayInfo(int materialID, float* vertex, float* normal, float* uv)
 	{
-        return u_objArrayInfo(materialID, vertex, normal, uv);
+		return u_objArrayInfo(materialID, vertex, normal, uv);
 	}
 
 	bool OBJMaterialInfo(int materialID,
@@ -155,8 +162,8 @@ namespace VRFL
 		int* hasShininess, int* shininess,
 		int* hasIllumination, int* illumination,
 		int* hasTexture, int* textureID,
-        int* hasSphereTexture, int* sphereTextureID,
-        int* hasCubeTexture, int* cubeTextureIDs)
+		int* hasSphereTexture, int* sphereTextureID,
+		int* hasCubeTexture, int* cubeTextureIDs)
 	{
 		return u_objMaterialInfo(materialID,
 			hasAmbient, ambient,
@@ -166,8 +173,8 @@ namespace VRFL
 			hasShininess, shininess,
 			hasIllumination, illumination,
 			hasTexture, textureID,
-            hasSphereTexture, sphereTextureID,
-            hasCubeTexture, cubeTextureIDs);
+			hasSphereTexture, sphereTextureID,
+			hasCubeTexture, cubeTextureIDs);
 	}
 
 	bool OBJTextureBufferInfo(int textureID,

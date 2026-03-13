@@ -29,11 +29,22 @@ bool vrconfig::LoadConfig(const char* filename)
 
 		cdata.node.resize(maxsize, 0);
 		cdata.file.resize(maxsize, 0);
-		cdata.reserve.resize(maxsize, 0);
 
 		VRFL::GetConfig(i, 
 			&cdata.id, &cdata.scale, 
-			(char*)cdata.node.c_str(), (char*)cdata.file.c_str(), (char*)cdata.reserve.c_str(), maxsize);
+			(char*)cdata.node.c_str(), (char*)cdata.file.c_str(), maxsize);
+
+		int attrCount = VRFL::GetConfigAttributeCount(i);
+		for (int j = 0; j < attrCount; j++)
+		{
+			std::string attrName, attrValue;
+			attrName.resize(maxsize, 0);
+			attrValue.resize(maxsize, 0);
+
+			VRFL::GetConfigAttribute(i, j, (char*)attrName.c_str(), (char*)attrValue.c_str(), maxsize);
+
+			cdata.attributes.push_back(std::make_pair(attrName, attrValue));
+		}
 
 		m_datalist.push_back(cdata);
 	}
@@ -99,4 +110,21 @@ float vrconfig::GetScale(const char* nodename)
 	}
 
 	return 1.0f;
+}
+
+const std::vector<std::pair<std::string, std::string>>& vrconfig::GetAttributes(const char* nodename)
+{
+	static std::vector<std::pair<std::string, std::string>> emptyAttributes;
+
+	if (nodename == NULL) return emptyAttributes;
+
+	int cnt = m_datalist.size();
+
+	for (int i = 0; i < cnt; i++)
+	{
+		if (strcmp(m_datalist[i].node.c_str(), nodename) == 0)
+			return m_datalist[i].attributes;
+	}
+
+	return emptyAttributes;
 }
