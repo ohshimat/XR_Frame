@@ -50,35 +50,75 @@ public class LoadObj
 
     public static void CleanUp()
     {
-        // TODO : Clear texture
-        // TODO : Clear mesh
-        // TODO : Clear material
         OBJCleanUp();
     }
 
-    public static GameObject LoadObjFile(string filename, float scale, Material basemat)
+    public static GameObject LoadObjFile(string filename, float scale, Material basemat, Dictionary<string, string> attributes)
     {
-        GameObject obj = new GameObject();
+        GameObject obj = new();
 
-        if (!OBJCreateModel(filename, scale))
+        if (IsSequence(attributes))
         {
-            Debug.LogError("Failed to load OBJ file: " + filename);
-            return null;
+            SequenceModelInfo sequenceInfo = SequenceModelInfo.Parse(attributes);
+            List<GameObject> frames = new();
+
+            SequenceModelAnimator animator = obj.AddComponent<SequenceModelAnimator>();
+            animator.Initialize(sequenceInfo, frames);
+
+            List<Material> cachedMaterials = null;
+
+            for (int i = 0; i < sequenceInfo.FrameCount; i++)
+            {
+                GameObject frameObj = new("Frame_" + i);
+                frameObj.transform.parent = obj.transform;
+                frames.Add(frameObj);
+                string frameFileName = sPrintf(filename, i);
+
+                if (!OBJCreateModel(frameFileName, scale))
+                {
+                    Debug.LogError("Failed to load OBJ file: " + frameFileName);
+                    continue;
+                }
+
+                if (i == 0)
+                {
+                    cachedMaterials = LoadMaterials(basemat);
+                }
+
+                List<Material> materials;
+                if (sequenceInfo.ReuseMaterial)
+                {
+                    materials = cachedMaterials;
+                }
+                else
+                {
+                    materials = LoadMaterials(basemat);
+                }
+                LoadMesh(frameObj, materials);
+
+                OBJDeleteModel();
+            }
         }
+        else
+        {
+            if (!OBJCreateModel(filename, scale))
+            {
+                Debug.LogError("Failed to load OBJ file: " + filename);
+                return obj;
+            }
 
-        LoadObjects(obj, basemat);
+            List<Material> materials = LoadMaterials(basemat);
+            LoadMesh(obj, materials);
 
-        OBJDeleteModel();
+            OBJDeleteModel();
+        }
 
         return obj;
     }
 
-    private static void LoadObjects(GameObject parent, Material basemat)
+    private static void LoadMesh(GameObject parent, List<Material> materials)
     {
         int cnt = OBJMaterialCount();
-        Dictionary<int, Texture2D> textureList = new Dictionary<int, Texture2D>();
-        Dictionary<string, Cubemap> cubemapList = new Dictionary<string, Cubemap>();
-
         for (int i = 0; i < cnt; i++)
         {
             int arraysize = OBJArrayCount(i);
@@ -88,14 +128,54 @@ public class LoadObj
             float[] norm = new float[arraysize * 3];
             float[] uv = new float[arraysize * 2];
 
-            if (!OBJArrayInfo(i, vert, norm, uv)) continue;
-
-            Material mat = new Material(basemat)
+            if (OBJArrayInfo(i, vert, norm, uv))
             {
-                name = parent.name + "Material_" + i
+                GameObject meshobj = new("Mesh_" + i);
+                MeshFilter mf = meshobj.AddComponent<MeshFilter>();
+                MeshRenderer mr = meshobj.AddComponent<MeshRenderer>();
+                Mesh mesh = mf.mesh;
+                if (mesh == null) mesh = new Mesh();
+                mesh.indexFormat = arraysize > 65535 ? IndexFormat.UInt32 : IndexFormat.UInt16;
+
+                Vector3[] vvec, vnorm;
+                Vector2[] vuv;
+
+                vvec = LoadUtil.ConvertFloatToVector3(vert, arraysize);
+                vnorm = LoadUtil.ConvertFloatToVector3(norm, arraysize);
+
+                mesh.vertices = vvec;
+                mesh.normals = vnorm;
+
+                vuv = LoadUtil.ConvertFloatToVector2(uv, arraysize);
+                mesh.uv = vuv;
+
+                int[] indices = LoadUtil.CreateIndices(arraysize, MeshTopology.Triangles, reverse: true);
+                mesh.SetIndices(indices, MeshTopology.Triangles, 0);
+                mesh.RecalculateBounds();
+
+                mr.material = materials[i];
+                mf.mesh = mesh;
+                meshobj.transform.parent = parent.transform;
+            }
+        }
+    }
+
+    private static List<Material> LoadMaterials(Material basemat)
+    {
+        int cnt = OBJMaterialCount();
+        List<Material> materials = new(cnt);
+        Dictionary<int, Texture2D> textureList = new();
+        Dictionary<string, Cubemap> cubemapList = new();
+
+        for (int i = 0; i < cnt; i++)
+        {
+            Material mat = new(basemat)
+            {
+                name = "Material_" + i
             };
             mat.SetFloat("_SphereBlend", 0.0f);
             mat.SetFloat("_CubeBlend", 0.0f);
+            materials.Add(mat);
 
             float[] ambient = new float[3];
             float[] diffuse = new float[3];
@@ -146,35 +226,9 @@ public class LoadObj
 
                 ConfigureBlendMode(mat, hasTransparency != 0 ? transparency : 1.0f);
             }
-
-            GameObject meshobj = new GameObject("Mesh_" + i);
-            MeshFilter mf = meshobj.AddComponent<MeshFilter>();
-            MeshRenderer mr = meshobj.AddComponent<MeshRenderer>();
-            Mesh mesh = mf.mesh;
-            if (mesh == null) mesh = new Mesh();
-            mesh.indexFormat = arraysize > 65535 ? IndexFormat.UInt32 : IndexFormat.UInt16;
-
-            Vector3[] vvec, vnorm;
-            Vector2[] vuv;
-
-            vvec = LoadUtil.ConvertFloatToVector3(vert, arraysize);
-            vnorm = LoadUtil.ConvertFloatToVector3(norm, arraysize);
-
-            mesh.vertices = vvec;
-            mesh.normals = vnorm;
-
-            vuv = LoadUtil.ConvertFloatToVector2(uv, arraysize);
-            mesh.uv = vuv;
-
-            int[] indices = LoadUtil.CreateIndices(arraysize, MeshTopology.Triangles, reverse: true);
-            mesh.SetIndices(indices, MeshTopology.Triangles, 0);
-            mesh.RecalculateBounds();
-
-            mr.material = mat;
-            mf.mesh = mesh;
-
-            meshobj.transform.parent = parent.transform;
         }
+
+        return materials;
     }
 
     private static void ConfigureBlendMode(Material mat, float transparency)
@@ -293,5 +347,19 @@ public class LoadObj
 
         cubemapList[cubeKey] = cubemap;
         return cubemap;
+    }
+
+    private static bool IsSequence(Dictionary<string, string> attributes)
+    {
+        if (attributes.TryGetValue("Sequence", out string sequenceValue))
+        {
+            return sequenceValue == "true" || sequenceValue == "1";
+        }
+        return false;
+    }
+
+    private static string sPrintf(string format, int index)
+    {
+        return format.Replace("%i", index.ToString());
     }
 }

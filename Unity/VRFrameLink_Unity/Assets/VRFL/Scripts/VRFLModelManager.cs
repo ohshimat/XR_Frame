@@ -58,7 +58,7 @@ public class VRFLModelManager : MonoBehaviour
 
             if (cd.FileName.Length != 0)
             {
-                m.Object = LoadModel.LoadModelFile(cd.FileName, cd.Scale, m_material);
+                m.Object = LoadModel.LoadModelFile(cd.FileName, cd.Scale, m_material, cd.Attributes);
                 m.Object.name = m.Name;
             }
             else

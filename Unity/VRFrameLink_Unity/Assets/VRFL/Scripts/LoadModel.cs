@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadModel
@@ -14,7 +15,7 @@ public class LoadModel
         LoadObj.CleanUp();
     }
 
-    public static GameObject LoadModelFile(string filename, float scale, Material basemat)
+    public static GameObject LoadModelFile(string filename, float scale, Material basemat, Dictionary<string, string> attributes)
     {
         if (filename.EndsWith(".mqo"))
         {
@@ -22,7 +23,7 @@ public class LoadModel
         }
         else if (filename.EndsWith(".obj"))
         {
-            return LoadObj.LoadObjFile(filename, scale, basemat);
+            return LoadObj.LoadObjFile(filename, scale, basemat, attributes);
         }
         else
         {
