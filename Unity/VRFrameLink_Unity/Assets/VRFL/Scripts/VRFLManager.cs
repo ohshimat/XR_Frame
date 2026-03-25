@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class VRFLManager : MonoBehaviour
 {
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool InitializeUnity(ushort port);
 
     // Dllの文字列はマルチバイト(CharSet.Ansi)
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern int GetDataCount();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern VRFLRecvData GetData();
 
     [SerializeField] private ushort ReceivePort; // 受信ポート、Sim側と数値を合わせる

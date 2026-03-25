@@ -5,35 +5,35 @@ using System.Runtime.InteropServices;
 
 public class LoadMqo {
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern void MQOInit();
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern void MQOCleanUp();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern bool MQOCreateModel(string filename, double scale);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern void MQODeleteModel();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern int MQOObjectCount();
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern int MQOMaterialCount(int objectID);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern bool MQOMaterialInfo(int objectID, int materialID,
 			out int isvalid, out int hastexture,
 			[Out] float[] dif, [Out] float[] emi, [Out] float[] spe,
 			out int textureID
 		);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern int MQOArrayCount(int objectID, int materialID);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
 	private static extern bool MQOArrayInfo(int objectID, int materialID,
 			[Out] float[] vertex, [Out] float[] normal, [Out] float[] uv);
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern int MQOTextureSize(int textureID);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool MQOTextureImage(int textureID, [Out] byte[] image);
 
 

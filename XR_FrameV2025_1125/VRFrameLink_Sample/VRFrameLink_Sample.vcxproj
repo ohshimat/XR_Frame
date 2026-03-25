@@ -275,7 +275,7 @@
     <ClInclude Include="vrconfig.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VRFrameLink\VRFrameLink.vcxproj">
+    <ProjectReference Include="..\VRFrameLink_DLL\VRFrameLink_DLL.vcxproj">
       <Project>{fc73da60-dba3-45df-916f-1c7559487268}</Project>
     </ProjectReference>
   </ItemGroup>

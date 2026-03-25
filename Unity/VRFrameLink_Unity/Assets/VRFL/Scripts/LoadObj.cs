@@ -5,20 +5,20 @@ using UnityEngine.Rendering;
 
 public class LoadObj
 {
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern void OBJInit();
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern void OBJCleanUp();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool OBJCreateModel(string filename, double scale);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern void OBJDeleteModel();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern int OBJMaterialCount();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool OBJMaterialInfo(int materialID,
             out int hasAmbient, [Out] float[] ambient,
             out int hasDiffuse, [Out] float[] diffuse,
@@ -30,17 +30,17 @@ public class LoadObj
             out int hasSphereTexture, out int sphereTextureID,
             out int hasCubeTexture, [Out] int[] cubeTextureIDs);
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern int OBJArrayCount(int materialID);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool OBJArrayInfo(int materialID,
             [Out] float[] vertex, [Out] float[] normal, [Out] float[] uv);
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool OBJTextureBufferInfo(int textureID,
             out int width, out int height,
             out int channels, out int bufferSize);
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl)]
     private static extern bool OBJTextureBufferImage(int textureID, [Out] byte[] image, int bufferSize);
 
     public static void Initialize()

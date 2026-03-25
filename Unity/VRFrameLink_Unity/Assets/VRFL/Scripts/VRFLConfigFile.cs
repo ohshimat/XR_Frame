@@ -16,23 +16,23 @@ public class VRFLConfigData
 
 public class VRFLConfigFile
 {
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern bool LoadConfig(string filename, string relativebase);
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern int GetConfigCount();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern int GetMaxStringLength();
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern bool GetConfig(int index, ref int id, ref float scale,
                                          StringBuilder node, StringBuilder file, int stringlen);
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern int GetConfigAttributeCount(int index);
 
-    [DllImport("VRFrameLink.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+    [DllImport("VRFrameLink_DLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
     private static extern bool GetConfigAttribute(int index, int attrIndex, StringBuilder key, StringBuilder val, int stringlen);
 
     [HideInInspector]
