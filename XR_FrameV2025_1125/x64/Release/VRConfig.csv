@@ -1,0 +1,3 @@
+1,handR,../models/handR.mqo,0.12,dummy1
+2,handL,../models/handL.mqo,0.12,dummy2
+3,heart,../objmodels/heart.obj,0.01,sequence=true;fps=30;

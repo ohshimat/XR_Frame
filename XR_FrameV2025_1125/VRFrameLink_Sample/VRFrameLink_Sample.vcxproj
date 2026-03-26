@@ -104,8 +104,10 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;libjpeg.lib;freeglutd.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
-      <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -126,8 +128,10 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;libjpeg.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
-      <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -146,8 +150,10 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;freeglut.lib;libjpeg.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
-      <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -170,8 +176,10 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;freeglut.lib;libjpeg.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(ProjectDir)VRConfig.csv" "$(OutDir)" || exit /b 0</Command>
-      <Message>VRConfig.csv を出力ディレクトリにコピーする</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
