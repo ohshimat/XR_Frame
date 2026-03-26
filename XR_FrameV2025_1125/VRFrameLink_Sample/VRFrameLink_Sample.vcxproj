@@ -218,6 +218,7 @@
     <ClCompile Include="..\src\Shapes.cpp" />
     <ClCompile Include="..\src\tcpFunc.cpp" />
     <ClCompile Include="..\src\Vector.cpp" />
+    <ClCompile Include="..\src\vrconfig.cpp" />
     <ClCompile Include="..\VR_Project\cylindrical.cpp" />
     <ClCompile Include="..\VR_Project\ezTrack.cpp" />
     <ClCompile Include="..\VR_Project\ezTrack_Vicon.cpp" />
@@ -228,7 +229,6 @@
     <ClCompile Include="..\VR_Project\projview.cpp" />
     <ClCompile Include="..\VR_Project\stereo.cpp" />
     <ClCompile Include="..\VR_Project\warptex.cpp" />
-    <ClCompile Include="vrconfig.cpp" />
     <ClCompile Include="VRFrameLink_Sample_sim.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -269,6 +269,7 @@
     <ClInclude Include="..\include\Vicon\DataStreamClient.h" />
     <ClInclude Include="..\include\Vicon\DataStreamRetimingClient.h" />
     <ClInclude Include="..\include\Vicon\IDataStreamClientBase.h" />
+    <ClInclude Include="..\include\vrconfig.h" />
     <ClInclude Include="..\include\warptex.h" />
     <ClInclude Include="..\lib_ObjLoader\Material.h" />
     <ClInclude Include="..\lib_ObjLoader\Mtl.h" />
@@ -280,7 +281,6 @@
     <ClInclude Include="..\lib_ObjLoader\TextureCoordinate.h" />
     <ClInclude Include="..\lib_ObjLoader\ThreedVector.h" />
     <ClInclude Include="config.h" />
-    <ClInclude Include="vrconfig.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VRFrameLink_DLL\VRFrameLink_DLL.vcxproj">

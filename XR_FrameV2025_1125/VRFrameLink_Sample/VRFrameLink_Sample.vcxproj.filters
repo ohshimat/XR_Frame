@@ -186,10 +186,10 @@
     <ClCompile Include="..\VR_Project\projview.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="vrconfig.cpp">
+    <ClCompile Include="VRFrameLink_Sample_sim.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="VRFrameLink_Sample_sim.cpp">
+    <ClCompile Include="..\src\vrconfig.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -338,7 +338,7 @@
     <ClInclude Include="config.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="vrconfig.h">
+    <ClInclude Include="..\include\vrconfig.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
