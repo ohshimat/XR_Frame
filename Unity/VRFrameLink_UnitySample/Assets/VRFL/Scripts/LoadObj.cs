@@ -67,8 +67,7 @@ public class LoadObj
 
             List<Material> cachedMaterials = null;
 
-            int firstFrame = 1;
-            for (int i = firstFrame; i <= sequenceInfo.FrameCount; i++)
+            for (int i = 0; i < sequenceInfo.FrameCount; i++)
             {
                 GameObject frameObj = new("Frame_" + i);
                 frameObj.transform.parent = obj.transform;
@@ -81,7 +80,7 @@ public class LoadObj
                     continue;
                 }
 
-                if (i == firstFrame)
+                if (i == 0)
                 {
                     cachedMaterials = LoadMaterials(basemat);
                 }

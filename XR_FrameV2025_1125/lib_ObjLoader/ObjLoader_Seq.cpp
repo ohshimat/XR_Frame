@@ -27,7 +27,7 @@ bool CObjLoader_Seq::read_sequence(string objfnm, int framenum, double framerate
 	CObjLoader cobj;                               // インスタンス生成
 	char buf[128];
 
-	for (int i = 1; i <= framenum; i++)
+	for (int i = 0; i < framenum; i++)
 	{		
 		sprintf(buf, objfnm.c_str(), i);
 		
